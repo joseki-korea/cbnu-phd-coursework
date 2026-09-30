@@ -1,0 +1,59 @@
+{
+  "lane": "Lane B",
+  "model_name": "NetMultiScale1DCNN",
+  "architecture": "Multi-Scale Residual Inception 1D-CNN with Channel Squeeze-and-Excitation (SEBlock1D)",
+  "protocol": {
+    "feature_engineering": "v2 75-dim FE",
+    "feature_selection": "38-feature ExtraTrees SelectFromModel (fit TRAIN only)",
+    "scaling": "RobustScaler (fit TRAIN only)",
+    "seeds": [
+      42,
+      1004,
+      2026
+    ],
+    "framework": "PyTorch",
+    "validation_only": true,
+    "test_accessed": false
+  },
+  "split_sizes": {
+    "train": 10844,
+    "val": 3615,
+    "test": 3615
+  },
+  "per_seed_val_metrics": {
+    "42": {
+      "val_accuracy": 0.881328,
+      "val_macro_f1": 0.847376,
+      "best_epoch": 45,
+      "elapsed_seconds": 165.9
+    },
+    "1004": {
+      "val_accuracy": 0.882434,
+      "val_macro_f1": 0.847624,
+      "best_epoch": 37,
+      "elapsed_seconds": 189.99
+    },
+    "2026": {
+      "val_accuracy": 0.882711,
+      "val_macro_f1": 0.848786,
+      "best_epoch": 41,
+      "elapsed_seconds": 172.22
+    }
+  },
+  "val_accuracy_mean": 0.882158,
+  "val_accuracy_std": 0.000732,
+  "val_macro_f1_mean": 0.847929,
+  "val_macro_f1_std": 0.000753,
+  "ddof": 1,
+  "summary_str": "Val Acc = 0.8822 \u00b1 0.0007, Val Macro-F1 = 0.8479 \u00b1 0.0008",
+  "gains": {
+    "vs_v1_deep_nn": {
+      "val_acc_gain_pct_point": 28.81,
+      "val_macro_f1_gain_pct_point": 35.71
+    },
+    "vs_baseline_rf": {
+      "val_acc_gain_pct_point": 2.44,
+      "val_macro_f1_gain_pct_point": 3.01
+    }
+  }
+}
