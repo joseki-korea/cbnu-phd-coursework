@@ -1,0 +1,60 @@
+{
+  "lane": "Lane C",
+  "architecture": "FT-Transformer Style",
+  "model_family": "transformer",
+  "protocol": "v2 75-dim FE + 38-feature selection fit TRAIN only",
+  "split": "60/20/20 Stratified (Val tuning only, Test untouched)",
+  "seeds": [
+    42,
+    1004,
+    2026
+  ],
+  "per_seed": {
+    "42": {
+      "val_accuracy": 0.838174,
+      "val_macro_f1": 0.799092,
+      "elapsed_seconds": 400.47
+    },
+    "1004": {
+      "val_accuracy": 0.838728,
+      "val_macro_f1": 0.793249,
+      "elapsed_seconds": 104.06
+    },
+    "2026": {
+      "val_accuracy": 0.84177,
+      "val_macro_f1": 0.802851,
+      "elapsed_seconds": 106.17
+    }
+  },
+  "summary": {
+    "val_accuracy_mean": 0.839557,
+    "val_accuracy_std": 0.001936,
+    "val_macro_f1_mean": 0.798397,
+    "val_macro_f1_std": 0.004838,
+    "ddof": 1
+  },
+  "gain_vs_v1_nn": {
+    "val_accuracy_gain": 0.236515,
+    "val_macro_f1_gain": 0.286559
+  },
+  "gain_vs_baseline_rf": {
+    "val_accuracy_gain": -0.016044,
+    "val_macro_f1_gain": -0.018393
+  },
+  "config": {
+    "model": {
+      "d_token": 64,
+      "n_heads": 4,
+      "n_layers": 2,
+      "d_ff": 128,
+      "dropout": 0.1
+    },
+    "train": {
+      "batch_size": 128,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "epochs": 25
+    }
+  },
+  "timestamp": "2026-09-30T15:42:31+0900"
+}
