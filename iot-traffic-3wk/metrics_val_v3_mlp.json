@@ -1,0 +1,59 @@
+{
+  "lane": "Lane A",
+  "model_name": "DeepMLP",
+  "architecture": "Deep 4-Layer MLP with Batch Normalization, GELU, and Dropout [Linear(38,512)->BN->GELU->Drop(0.2)->Linear(512,256)->BN->GELU->Drop(0.2)->Linear(256,128)->BN->GELU->Drop(0.2)->Linear(128,14)]",
+  "protocol": {
+    "feature_engineering": "v2 75-dim FE",
+    "feature_selection": "38-feature ExtraTrees SelectFromModel (fit TRAIN only)",
+    "scaling": "RobustScaler + StandardScaler (fit TRAIN only)",
+    "seeds": [
+      42,
+      1004,
+      2026
+    ],
+    "framework": "PyTorch",
+    "validation_only": true,
+    "test_accessed": false
+  },
+  "split_sizes": {
+    "train": 10844,
+    "val": 3615,
+    "test": 3615
+  },
+  "per_seed_val_metrics": {
+    "42": {
+      "val_accuracy": 0.854495,
+      "val_macro_f1": 0.820594,
+      "best_epoch": 38,
+      "elapsed_seconds": 18.5
+    },
+    "1004": {
+      "val_accuracy": 0.854495,
+      "val_macro_f1": 0.821536,
+      "best_epoch": 42,
+      "elapsed_seconds": 20.1
+    },
+    "2026": {
+      "val_accuracy": 0.851452,
+      "val_macro_f1": 0.821226,
+      "best_epoch": 35,
+      "elapsed_seconds": 17.8
+    }
+  },
+  "val_accuracy_mean": 0.853481,
+  "val_accuracy_std": 0.001757,
+  "val_macro_f1_mean": 0.821119,
+  "val_macro_f1_std": 0.000480,
+  "ddof": 1,
+  "summary_str": "Val Acc = 0.8535 ± 0.0018, Val Macro-F1 = 0.8211 ± 0.0005",
+  "gains": {
+    "vs_v1_deep_nn": {
+      "val_acc_gain_pct_point": 25.94,
+      "val_macro_f1_gain_pct_point": 33.03
+    },
+    "vs_baseline_rf": {
+      "val_acc_gain_pct_point": -0.43,
+      "val_macro_f1_gain_pct_point": 0.33
+    }
+  }
+}

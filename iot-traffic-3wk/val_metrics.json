@@ -1,0 +1,57 @@
+{
+  "task": "tg12988 Lane A: Deep MLP + BatchNorm + Class-Weighted Loss",
+  "track": "Lane A (MLP)",
+  "student_id": "2026154001",
+  "student_name": "정용석",
+  "dataset": "ISCX VPN-nonVPN (TimeBasedFeatures-Dataset-15s.arff)",
+  "split": "Stratified 60/20/20 (Train: 10844, Val: 3615, Test: 3615 strictly held out)",
+  "model_architecture": "DeepMLP [Linear(38,512)->BN->GELU->Drop(0.2)->Linear(512,256)->BN->GELU->Drop(0.2)->Linear(256,128)->BN->GELU->Drop(0.2)->Linear(128,14)]",
+  "loss_function": "CrossEntropyLoss with smoothed inverse-frequency weights (alpha=0.30)",
+  "optimizer": "AdamW(lr=8e-4, weight_decay=1e-4) + CosineAnnealingLR(T_max=60, eta_min=1e-5)",
+  "early_stopping": "Patience 15 on Val Macro-F1 with best weights restoration",
+  "evaluation_split": "Validation Set Only (3,615 samples, 20% Stratified)",
+  "test_set_status": "Strictly Held Out (0 access, 0 evaluation, untouched)",
+  "seeds": [
+    42,
+    1004,
+    2026
+  ],
+  "per_seed_val_metrics": {
+    "42": {
+      "val_acc": 0.8544951590594744,
+      "val_macro_f1": 0.8205939805198196
+    },
+    "1004": {
+      "val_acc": 0.8544951590594744,
+      "val_macro_f1": 0.8215361402178833
+    },
+    "2026": {
+      "val_acc": 0.8514522821576763,
+      "val_macro_f1": 0.8212256632415719
+    }
+  },
+  "val_summary": {
+    "mean_val_acc": 0.853480866758875,
+    "std_val_acc": 0.001756805798364,
+    "mean_val_macro_f1": 0.8211185946597582,
+    "std_val_macro_f1": 0.0004801187197689614
+  },
+  "ablation_comparison_val": {
+    "step1_base_mlp": {
+      "val_acc": 0.6063623789764868,
+      "val_macro_f1": 0.5054596647317814
+    },
+    "step2_fe_selection": {
+      "val_acc": 0.8055325034578147,
+      "val_macro_f1": 0.7676625090328514
+    },
+    "step3_bn_gelu": {
+      "val_acc": 0.8348547717842324,
+      "val_macro_f1": 0.796032964346662
+    },
+    "step4_final_lane_a_mlp": {
+      "val_acc": 0.853480866758875,
+      "val_macro_f1": 0.8211185946597582
+    }
+  }
+}
