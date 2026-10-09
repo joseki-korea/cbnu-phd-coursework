@@ -1,0 +1,88 @@
+{
+  "lane": "Lane B",
+  "model_name": "NetMultiScale1DCNN",
+  "architecture": "Multi-Scale Residual Inception 1D-CNN with Channel Squeeze-and-Excitation (SEBlock1D)",
+  "protocol": {
+    "feature_engineering": "v2 75-dim FE",
+    "feature_selection": "38-feature ExtraTrees SelectFromModel (fit TRAIN only)",
+    "scaling": "RobustScaler (fit TRAIN only)",
+    "seeds": [
+      42,
+      1004,
+      2026
+    ],
+    "framework": "PyTorch",
+    "validation_locked_selection": true,
+    "test_one_pass_honest": true
+  },
+  "split_sizes": {
+    "train": 10844,
+    "val": 3615,
+    "test": 3615
+  },
+  "test_metrics": {
+    "seeds": [
+      42,
+      1004,
+      2026
+    ],
+    "per_seed": {
+      "42": {
+        "test_accuracy": 0.881604,
+        "test_macro_f1": 0.849373,
+        "val_accuracy": 0.881328,
+        "val_macro_f1": 0.847376,
+        "best_epoch": 45,
+        "elapsed_seconds": 127.18
+      },
+      "1004": {
+        "test_accuracy": 0.884094,
+        "test_macro_f1": 0.849846,
+        "val_accuracy": 0.882434,
+        "val_macro_f1": 0.847624,
+        "best_epoch": 37,
+        "elapsed_seconds": 125.02
+      },
+      "2026": {
+        "test_accuracy": 0.885201,
+        "test_macro_f1": 0.851685,
+        "val_accuracy": 0.882711,
+        "val_macro_f1": 0.848786,
+        "best_epoch": 41,
+        "elapsed_seconds": 124.16
+      }
+    },
+    "mean_accuracy": 0.883633,
+    "std_accuracy": 0.001842,
+    "mean_macro_f1": 0.850301,
+    "std_macro_f1": 0.001221,
+    "ddof": 1,
+    "summary_str": "Test Acc = 0.8836 \u00b1 0.0018, Test Macro-F1 = 0.8503 \u00b1 0.0012"
+  },
+  "val_metrics": {
+    "mean_accuracy": 0.882158,
+    "std_accuracy": 0.000732,
+    "mean_macro_f1": 0.847929,
+    "std_macro_f1": 0.000753,
+    "ddof": 1,
+    "summary_str": "Val Acc = 0.8822 \u00b1 0.0007, Val Macro-F1 = 0.8479 \u00b1 0.0008"
+  },
+  "comparisons_test": {
+    "baseline_rf": {
+      "test_acc": 0.8586,
+      "test_macro_f1": 0.8245,
+      "gain_acc_pct_point": 2.5,
+      "gain_macro_f1_pct_point": 2.58
+    },
+    "v1_deep_nn": {
+      "test_acc": 0.5941,
+      "test_macro_f1": 0.4908,
+      "gain_acc_pct_point": 28.95,
+      "gain_macro_f1_pct_point": 35.95
+    },
+    "v2_tree_ensemble": {
+      "test_acc": 0.904,
+      "test_macro_f1": 0.8785
+    }
+  }
+}
