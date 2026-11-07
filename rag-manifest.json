@@ -4,6 +4,64 @@
   "updated": "2026-11-07",
   "docs": [
     {
+      "path": "AGENTS.md",
+      "id": "cbnu-phd-coursework/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "cd55137c",
+      "source_of_truth": "docs/agents/codex-role.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3c0d4b13"
+    },
+    {
+      "path": "CLAUDE.md",
+      "id": "cbnu-phd-coursework/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "04276dda",
+      "source_of_truth": "docs/agents/claude-role.md"
+    },
+    {
+      "path": "GEMINI.md",
+      "id": "cbnu-phd-coursework/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "2dc99cb5",
+      "source_of_truth": "docs/agents/antigravity-role.md"
+    },
+    {
       "path": "README.md",
       "id": "cbnu-phd-coursework/README.md",
       "title": "cbnu-phd-coursework",
@@ -14,7 +72,20 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "280ffe21"
+      "sha8": "689b9680"
+    },
+    {
+      "path": "RULES.md",
+      "id": "cbnu-phd-coursework/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3187f032"
     },
     {
       "path": "assets/README.md",
@@ -82,6 +153,19 @@
       "sha8": "7cd10e59"
     },
     {
+      "path": "assets/ui-components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui-components/README.md",
+      "title": "UI Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3ea9e111"
+    },
+    {
       "path": "assets/videos/README.md",
       "id": "cbnu-phd-coursework/assets/videos/README.md",
       "title": "Video Assets Index",
@@ -107,6 +191,20 @@
       "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "9af75ceb"
+    },
+    {
+      "path": "docs/ASSET-MAP.md",
+      "id": "cbnu-phd-coursework/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "776de59d"
     },
     {
       "path": "docs/README.md",
@@ -148,6 +246,461 @@
       "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "3efd3c43"
+    },
+    {
+      "path": "docs/agents/README.md",
+      "id": "cbnu-phd-coursework/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "roles",
+        "rules"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "07c92a6a"
+    },
+    {
+      "path": "docs/agents/antigravity-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "8ed45ee6"
+    },
+    {
+      "path": "docs/agents/antigravity-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "62ba49c3"
+    },
+    {
+      "path": "docs/agents/claude-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "d97aa707"
+    },
+    {
+      "path": "docs/agents/claude-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7ce11308"
+    },
+    {
+      "path": "docs/agents/codex-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b57cb903"
+    },
+    {
+      "path": "docs/agents/codex-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b1d3f5fb"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "cbnu-phd-coursework/handoffs/README.md",
+      "title": "Agent Session Handoff Records",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "session-notes"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "d7fe9a83"
+    }
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "id": "cbnu-phd-coursework/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "cd55137c",
+      "source_of_truth": "docs/agents/codex-role.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3c0d4b13"
+    },
+    {
+      "path": "CLAUDE.md",
+      "id": "cbnu-phd-coursework/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "04276dda",
+      "source_of_truth": "docs/agents/claude-role.md"
+    },
+    {
+      "path": "GEMINI.md",
+      "id": "cbnu-phd-coursework/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "2dc99cb5",
+      "source_of_truth": "docs/agents/antigravity-role.md"
+    },
+    {
+      "path": "README.md",
+      "id": "cbnu-phd-coursework/README.md",
+      "title": "cbnu-phd-coursework",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "project-overview"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "689b9680"
+    },
+    {
+      "path": "RULES.md",
+      "id": "cbnu-phd-coursework/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3187f032"
+    },
+    {
+      "path": "assets/README.md",
+      "id": "cbnu-phd-coursework/assets/README.md",
+      "title": "Assets Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "c63b2a2e"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "cbnu-phd-coursework/assets/binaries/README.md",
+      "title": "Binary Artifacts Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "binaries"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3ce082c2"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "cbnu-phd-coursework/assets/components/README.md",
+      "title": "Reusable Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "1075fc1b"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "cbnu-phd-coursework/assets/images/README.md",
+      "title": "Image Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "images"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "06201ae3"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "cbnu-phd-coursework/assets/src/README.md",
+      "title": "Source Snippets Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "source-snippets"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7cd10e59"
+    },
+    {
+      "path": "assets/ui-components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui-components/README.md",
+      "title": "UI Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3ea9e111"
+    },
+    {
+      "path": "assets/videos/README.md",
+      "id": "cbnu-phd-coursework/assets/videos/README.md",
+      "title": "Video Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "eb4055c2"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Migration Design",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "directory-design",
+        "migration-plan"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "9af75ceb"
+    },
+    {
+      "path": "docs/ASSET-MAP.md",
+      "id": "cbnu-phd-coursework/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "776de59d"
+    },
+    {
+      "path": "docs/README.md",
+      "id": "cbnu-phd-coursework/docs/README.md",
+      "title": "Docs Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "9e63121a"
+    },
+    {
+      "path": "docs/ROLES.md",
+      "id": "cbnu-phd-coursework/docs/ROLES.md",
+      "title": "Agent Roles and Session Allocation",
+      "doc_type": "roles",
+      "tags": [
+        "roles",
+        "orchestration",
+        "multi-agent"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b5761ecc"
+    },
+    {
+      "path": "docs/RULES.md",
+      "id": "cbnu-phd-coursework/docs/RULES.md",
+      "title": "Repository Governance Rules",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "governance",
+        "draft"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3efd3c43"
+    },
+    {
+      "path": "docs/agents/README.md",
+      "id": "cbnu-phd-coursework/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "roles",
+        "rules"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "07c92a6a"
+    },
+    {
+      "path": "docs/agents/antigravity-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "8ed45ee6"
+    },
+    {
+      "path": "docs/agents/antigravity-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "62ba49c3"
+    },
+    {
+      "path": "docs/agents/claude-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "d97aa707"
+    },
+    {
+      "path": "docs/agents/claude-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7ce11308"
+    },
+    {
+      "path": "docs/agents/codex-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b57cb903"
+    },
+    {
+      "path": "docs/agents/codex-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b1d3f5fb"
     },
     {
       "path": "handoffs/README.md",

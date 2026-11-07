@@ -11,6 +11,8 @@ status: DRAFT
 updated: '2026-11-07'
 source_of_truth: README.md
 ---
+- **GitHub Repository**: https://github.com/joseki-korea/cbnu-phd-coursework
+- **Google Drive Artifacts**: `Orca 산출물/프로젝트/cbnu-phd-coursework/` (pending upload)
 
 # cbnu-phd-coursework
 
