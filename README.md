@@ -24,7 +24,7 @@ related:
 GitHub: https://github.com/joseki-korea/cbnu-phd-coursework
 Drive: https://drive.google.com/drive/folders/1Vz3stCsB7B69a1segIKkFvfLTqLjTqJr
 - **GitHub Repository**: https://github.com/joseki-korea/cbnu-phd-coursework
-- **Google Drive Artifacts**: `Orca 산출물/프로젝트/cbnu-phd-coursework/` (pending upload)
+- **Google Drive Artifacts**: https://drive.google.com/drive/folders/1Vz3stCsB7B69a1segIKkFvfLTqLjTqJr
 
 # cbnu-phd-coursework
 
