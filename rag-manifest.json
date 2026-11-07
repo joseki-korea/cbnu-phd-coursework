@@ -66,7 +66,7 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "cc7400de"
+      "sha8": "1e48b166"
     },
     {
       "path": "docs/ROLES.md",
@@ -103,6 +103,7 @@
     }
   ],
   "excluded": [
+    "assets/images/**",
     "assets/binaries/**",
     "secrets/**",
     "dist/**",
