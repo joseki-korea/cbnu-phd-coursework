@@ -1,147 +1,192 @@
 {
+  "manifest_version": "1.0.0",
   "repo": "joseki-korea/cbnu-phd-coursework",
   "updated": "2026-11-07",
   "docs": [
     {
       "path": "README.md",
       "id": "cbnu-phd-coursework/README.md",
+      "title": "cbnu-phd-coursework",
       "doc_type": "readme",
       "tags": [
         "readme",
-        "standard-documentation"
+        "project-overview"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "280ffe21"
     },
     {
       "path": "assets/README.md",
       "id": "cbnu-phd-coursework/assets/README.md",
+      "title": "Assets Index",
       "doc_type": "readme",
       "tags": [
         "readme",
-        "standard-documentation"
+        "folder-index"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "c63b2a2e"
     },
     {
       "path": "assets/binaries/README.md",
       "id": "cbnu-phd-coursework/assets/binaries/README.md",
+      "title": "Binary Artifacts Index",
       "doc_type": "asset-index",
       "tags": [
-        "asset-index",
-        "standard-documentation"
+        "assets",
+        "binaries"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "3ce082c2"
     },
     {
       "path": "assets/components/README.md",
       "id": "cbnu-phd-coursework/assets/components/README.md",
+      "title": "Reusable Components Asset Index",
       "doc_type": "asset-index",
       "tags": [
-        "asset-index",
-        "standard-documentation"
+        "assets",
+        "components"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "1075fc1b"
     },
     {
       "path": "assets/images/README.md",
       "id": "cbnu-phd-coursework/assets/images/README.md",
+      "title": "Image Assets Index",
       "doc_type": "asset-index",
       "tags": [
-        "asset-index",
-        "standard-documentation"
+        "assets",
+        "images"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "06201ae3"
     },
     {
       "path": "assets/src/README.md",
       "id": "cbnu-phd-coursework/assets/src/README.md",
+      "title": "Source Snippets Asset Index",
       "doc_type": "asset-index",
       "tags": [
-        "asset-index",
-        "standard-documentation"
+        "assets",
+        "source-snippets"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "7cd10e59"
     },
     {
       "path": "assets/videos/README.md",
       "id": "cbnu-phd-coursework/assets/videos/README.md",
+      "title": "Video Assets Index",
       "doc_type": "asset-index",
       "tags": [
-        "asset-index",
-        "standard-documentation"
+        "assets",
+        "videos"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "eb4055c2"
     },
     {
       "path": "docs/ARCHITECTURE.md",
       "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Migration Design",
       "doc_type": "architecture",
       "tags": [
         "architecture",
-        "standard-documentation"
+        "directory-design",
+        "migration-plan"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "ab574f0f"
+      "sha8": "a570f149"
     },
     {
       "path": "docs/README.md",
       "id": "cbnu-phd-coursework/docs/README.md",
+      "title": "Docs Index",
       "doc_type": "readme",
       "tags": [
         "readme",
-        "standard-documentation"
+        "folder-index"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "9e63121a"
     },
     {
       "path": "docs/ROLES.md",
       "id": "cbnu-phd-coursework/docs/ROLES.md",
+      "title": "Agent Roles and Session Allocation",
       "doc_type": "roles",
       "tags": [
         "roles",
-        "standard-documentation"
+        "orchestration",
+        "multi-agent"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "b5761ecc"
     },
     {
       "path": "docs/RULES.md",
       "id": "cbnu-phd-coursework/docs/RULES.md",
+      "title": "Repository Governance Rules",
       "doc_type": "rules",
       "tags": [
         "rules",
-        "standard-documentation"
+        "governance",
+        "draft"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "3efd3c43"
     },
     {
       "path": "handoffs/README.md",
       "id": "cbnu-phd-coursework/handoffs/README.md",
+      "title": "Agent Session Handoff Records",
       "doc_type": "handoff",
       "tags": [
         "handoff",
-        "standard-documentation"
+        "session-notes"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "d7fe9a83"
     }
   ],
   "excluded": [
-    "assets/images/**",
-    "assets/binaries/**",
-    "assets/videos/**",
-    "secrets/**",
-    "dist/**",
-    "build/**",
-    "node_modules/**"
+    "*.ipynb (notebook-binary)",
+    "assets/images/*",
+    "assets/binaries/*",
+    "assets/videos/*",
+    ".env*",
+    "node_modules",
+    ".git",
+    "dist",
+    "build",
+    ".cache",
+    "__pycache__"
+  ],
+  "excluded_paths": [
+    "*.ipynb (notebook-binary)",
+    "assets/images/*",
+    "assets/binaries/*",
+    "assets/videos/*",
+    ".env*",
+    "node_modules",
+    ".git",
+    "dist",
+    "build",
+    ".cache",
+    "__pycache__"
   ]
 }

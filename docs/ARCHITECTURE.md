@@ -21,13 +21,13 @@ This document specifies the baseline directory structure, target standard archit
 ## 2. Baseline Architecture (CURRENT Tree)
 
 ### Tracked Root Files (origin/main)
-- `2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb`
-- `2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb`
-- `2026154001_정용석_lab4_3_challenging_problems.ipynb`
-- `2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb`
-- `2026154001_정용석_linear_regression.ipynb`
-- `2026154001_정용석_logistic_regression.ipynb`
-- `2026154001_정용석_mnist_nn_classification.ipynb`
+- `[student_id]_[author]_lab4_1_regression_activation_and_loss.ipynb`
+- `[student_id]_[author]_lab4_2_classification_activation_and_loss.ipynb`
+- `[student_id]_[author]_lab4_3_challenging_problems.ipynb`
+- `[student_id]_[author]_lab4_4_techniques_for_challenging_problems.ipynb`
+- `[student_id]_[author]_linear_regression.ipynb`
+- `[student_id]_[author]_logistic_regression.ipynb`
+- `[student_id]_[author]_mnist_nn_classification.ipynb`
 - `lab4_1_regression_activation_and_loss.ipynb`
 - `lab4_2_classification_activation_and_loss.ipynb`
 - `lab4_3_challenging_problems.ipynb`
@@ -42,13 +42,13 @@ This document specifies the baseline directory structure, target standard archit
 
 ### Tracked Root Files (Target)
 - `.gitignore`
-- `2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb`
-- `2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb`
-- `2026154001_정용석_lab4_3_challenging_problems.ipynb`
-- `2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb`
-- `2026154001_정용석_linear_regression.ipynb`
-- `2026154001_정용석_logistic_regression.ipynb`
-- `2026154001_정용석_mnist_nn_classification.ipynb`
+- `[student_id]_[author]_lab4_1_regression_activation_and_loss.ipynb`
+- `[student_id]_[author]_lab4_2_classification_activation_and_loss.ipynb`
+- `[student_id]_[author]_lab4_3_challenging_problems.ipynb`
+- `[student_id]_[author]_lab4_4_techniques_for_challenging_problems.ipynb`
+- `[student_id]_[author]_linear_regression.ipynb`
+- `[student_id]_[author]_logistic_regression.ipynb`
+- `[student_id]_[author]_mnist_nn_classification.ipynb`
 - `README.md`
 - `lab4_1_regression_activation_and_loss.ipynb`
 - `lab4_2_classification_activation_and_loss.ipynb`
