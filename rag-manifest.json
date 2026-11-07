@@ -16,13 +16,13 @@
     {
       "path": "assets/README.md",
       "id": "cbnu-phd-coursework/assets/README.md",
-      "doc_type": "asset-index",
+      "doc_type": "readme",
       "tags": [
-        "asset-index",
+        "readme",
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "e80e5904"
+      "sha8": "c63b2a2e"
     },
     {
       "path": "assets/binaries/README.md",
@@ -88,7 +88,7 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "acf29c29"
+      "sha8": "ab574f0f"
     },
     {
       "path": "docs/README.md",
@@ -99,7 +99,7 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "fcabc88a"
+      "sha8": "9e63121a"
     },
     {
       "path": "docs/ROLES.md",

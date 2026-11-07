@@ -16,22 +16,55 @@ source_of_truth: docs/ARCHITECTURE.md
 # Repository Architecture and Migration Design
 
 ## 1. Overview
-This document specifies the current baseline directory structure, target standard architecture, migration mappings, safety verifications, and rollback protocols for `cbnu-phd-coursework`.
+This document specifies the baseline directory structure, target standard architecture, migration mappings, safety verifications, and rollback protocols for `cbnu-phd-coursework` conforming to `REPO-STANDARD-ALL-20261107`.
 
 ## 2. Baseline Architecture (CURRENT Tree)
-Pre-migration directory layout on default branch `origin/main` (depth ≤ 3):
 
-- Root directory only (no subdirectories in origin default branch)
+### Tracked Root Files (origin/main)
+- `2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb`
+- `2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb`
+- `2026154001_정용석_lab4_3_challenging_problems.ipynb`
+- `2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb`
+- `2026154001_정용석_linear_regression.ipynb`
+- `2026154001_정용석_logistic_regression.ipynb`
+- `2026154001_정용석_mnist_nn_classification.ipynb`
+- `lab4_1_regression_activation_and_loss.ipynb`
+- `lab4_2_classification_activation_and_loss.ipynb`
+- `lab4_3_challenging_problems.ipynb`
+- `lab4_4_techniques_for_challenging_problems.ipynb`
+- `manufacturing_ai_lab2_1.ipynb`
+- `manufacturing_ai_lab2_2.ipynb`
+
+### Tracked Directory Hierarchy (origin/main, depth ≤ 3)
+- None (flat root layout)
 
 ## 3. Target Standard Architecture (TARGET Tree)
-Target directory structure conforming to `REPO-STANDARD-ALL-20261107`:
 
+### Tracked Root Files (Target)
+- `.gitignore`
+- `2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb`
+- `2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb`
+- `2026154001_정용석_lab4_3_challenging_problems.ipynb`
+- `2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb`
+- `2026154001_정용석_linear_regression.ipynb`
+- `2026154001_정용석_logistic_regression.ipynb`
+- `2026154001_정용석_mnist_nn_classification.ipynb`
+- `README.md`
+- `lab4_1_regression_activation_and_loss.ipynb`
+- `lab4_2_classification_activation_and_loss.ipynb`
+- `lab4_3_challenging_problems.ipynb`
+- `lab4_4_techniques_for_challenging_problems.ipynb`
+- `manufacturing_ai_lab2_1.ipynb`
+- `manufacturing_ai_lab2_2.ipynb`
+- `rag-manifest.json`
+
+### Tracked Directory Hierarchy (Target, depth ≤ 3)
 - `assets/`
 - `assets/binaries/`
 - `assets/components/`
 - `assets/images/`
-- `assets/videos/`
 - `assets/src/`
+- `assets/videos/`
 - `docs/`
 - `handoffs/`
 
