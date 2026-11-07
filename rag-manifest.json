@@ -1,0 +1,112 @@
+{
+  "repo": "joseki-korea/cbnu-phd-coursework",
+  "updated": "2026-11-07",
+  "docs": [
+    {
+      "path": "README.md",
+      "id": "cbnu-phd-coursework/README.md",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "280ffe21"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "cbnu-phd-coursework/assets/binaries/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "047e7c66"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "cbnu-phd-coursework/assets/components/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "1075fc1b"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "cbnu-phd-coursework/assets/images/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "ca377407"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "cbnu-phd-coursework/assets/src/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "7cd10e59"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "cc7400de"
+    },
+    {
+      "path": "docs/ROLES.md",
+      "id": "cbnu-phd-coursework/docs/ROLES.md",
+      "doc_type": "roles",
+      "tags": [
+        "roles",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "e8d154c8"
+    },
+    {
+      "path": "docs/RULES.md",
+      "id": "cbnu-phd-coursework/docs/RULES.md",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "3efd3c43"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "cbnu-phd-coursework/handoffs/README.md",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "d7fe9a83"
+    }
+  ],
+  "excluded": [
+    "assets/binaries/**",
+    "secrets/**",
+    "dist/**",
+    "build/**",
+    "node_modules/**"
+  ]
+}
