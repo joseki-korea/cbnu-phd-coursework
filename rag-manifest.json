@@ -164,29 +164,111 @@
     }
   ],
   "excluded": [
-    "*.ipynb (notebook-binary)",
-    "assets/images/*",
-    "assets/binaries/*",
-    "assets/videos/*",
-    ".env*",
-    "node_modules",
-    ".git",
-    "dist",
-    "build",
-    ".cache",
-    "__pycache__"
+    {
+      "path": "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_3_challenging_problems.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_linear_regression.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_logistic_regression.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_mnist_nn_classification.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "lab4_1_regression_activation_and_loss.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "lab4_2_classification_activation_and_loss.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "lab4_3_challenging_problems.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "lab4_4_techniques_for_challenging_problems.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "manufacturing_ai_lab2_1.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "manufacturing_ai_lab2_2.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "assets/images/*",
+      "reason": "media-asset (managed via Drive manifest)"
+    },
+    {
+      "path": "assets/binaries/*",
+      "reason": "binary-asset (managed via Drive manifest)"
+    },
+    {
+      "path": "assets/videos/*",
+      "reason": "video-asset (managed via Drive manifest)"
+    },
+    {
+      "path": ".git",
+      "reason": "vcs-internal"
+    }
   ],
   "excluded_paths": [
-    "*.ipynb (notebook-binary)",
+    "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
+    "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
+    "2026154001_정용석_lab4_3_challenging_problems.ipynb",
+    "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
+    "2026154001_정용석_linear_regression.ipynb",
+    "2026154001_정용석_logistic_regression.ipynb",
+    "2026154001_정용석_mnist_nn_classification.ipynb",
+    "lab4_1_regression_activation_and_loss.ipynb",
+    "lab4_2_classification_activation_and_loss.ipynb",
+    "lab4_3_challenging_problems.ipynb",
+    "lab4_4_techniques_for_challenging_problems.ipynb",
+    "manufacturing_ai_lab2_1.ipynb",
+    "manufacturing_ai_lab2_2.ipynb",
     "assets/images/*",
     "assets/binaries/*",
     "assets/videos/*",
-    ".env*",
-    "node_modules",
-    ".git",
-    "dist",
-    "build",
-    ".cache",
-    "__pycache__"
-  ]
+    ".git"
+  ],
+  "excluded_reasons": {
+    "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_3_challenging_problems.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_linear_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_logistic_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_mnist_nn_classification.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "lab4_1_regression_activation_and_loss.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "lab4_2_classification_activation_and_loss.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "lab4_3_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "lab4_4_techniques_for_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "manufacturing_ai_lab2_1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "manufacturing_ai_lab2_2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "assets/images/*": "media-asset (managed via Drive manifest)",
+    "assets/binaries/*": "binary-asset (managed via Drive manifest)",
+    "assets/videos/*": "video-asset (managed via Drive manifest)",
+    ".git": "vcs-internal"
+  }
 }
