@@ -14,6 +14,17 @@
       "sha8": "280ffe21"
     },
     {
+      "path": "assets/README.md",
+      "id": "cbnu-phd-coursework/assets/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "e80e5904"
+    },
+    {
       "path": "assets/binaries/README.md",
       "id": "cbnu-phd-coursework/assets/binaries/README.md",
       "doc_type": "asset-index",
@@ -66,7 +77,18 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "1e48b166"
+      "sha8": "d722e831"
+    },
+    {
+      "path": "docs/README.md",
+      "id": "cbnu-phd-coursework/docs/README.md",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "fcabc88a"
     },
     {
       "path": "docs/ROLES.md",

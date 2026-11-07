@@ -26,8 +26,8 @@ Project workspace for cbnu-phd-coursework. TBD (not found in repo)
 - `2026154001_정용석_logistic_regression.ipynb`: Root configuration or source artifact
 - `2026154001_정용석_mnist_nn_classification.ipynb`: Root configuration or source artifact
 - `README.md`: Root configuration or source artifact
-- `assets/`: Media, reusable components, source snippets, and binaries tracking (4 items)
-- `docs/`: Repository documentation, governance rules, roles, architecture, and guides (3 items)
+- `assets/`: Media, reusable components, source snippets, and binaries tracking (5 items)
+- `docs/`: Repository documentation, governance rules, roles, architecture, and guides (4 items)
 - `handoffs/`: Session handoff records and state persistence logs (1 items)
 - `lab4_1_regression_activation_and_loss.ipynb`: Root configuration or source artifact
 - `lab4_2_classification_activation_and_loss.ipynb`: Root configuration or source artifact
