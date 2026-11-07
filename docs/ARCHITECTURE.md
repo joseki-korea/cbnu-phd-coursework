@@ -28,10 +28,10 @@ This document specifies the baseline directory structure, target standard archit
 - `<student-notebook-05>`
 - `<student-notebook-06>`
 - `<student-notebook-07>`
-- `<student-notebook-01>`
-- `<student-notebook-02>`
-- `<student-notebook-03>`
-- `<student-notebook-04>`
+- `lab4_1_regression_activation_and_loss.ipynb`
+- `lab4_2_classification_activation_and_loss.ipynb`
+- `lab4_3_challenging_problems.ipynb`
+- `lab4_4_techniques_for_challenging_problems.ipynb`
 - `manufacturing_ai_lab2_1.ipynb`
 - `manufacturing_ai_lab2_2.ipynb`
 
@@ -50,10 +50,10 @@ This document specifies the baseline directory structure, target standard archit
 - `<student-notebook-06>`
 - `<student-notebook-07>`
 - `README.md`
-- `<student-notebook-01>`
-- `<student-notebook-02>`
-- `<student-notebook-03>`
-- `<student-notebook-04>`
+- `lab4_1_regression_activation_and_loss.ipynb`
+- `lab4_2_classification_activation_and_loss.ipynb`
+- `lab4_3_challenging_problems.ipynb`
+- `lab4_4_techniques_for_challenging_problems.ipynb`
 - `manufacturing_ai_lab2_1.ipynb`
 - `manufacturing_ai_lab2_2.ipynb`
 - `rag-manifest.json`
