@@ -37,12 +37,12 @@ This document specifies the baseline directory structure, target standard archit
 - `<student-notebook-05>`
 - `<student-notebook-06>`
 - `<student-notebook-07>`
-- `lab4_1_regression_activation_and_loss.ipynb`
-- `lab4_2_classification_activation_and_loss.ipynb`
+- `notebooks/templates/lab4-1.ipynb`
+- `notebooks/templates/lab4-2.ipynb`
 - `lab4_3_challenging_problems.ipynb`
 - `lab4_4_techniques_for_challenging_problems.ipynb`
-- `manufacturing_ai_lab2_1.ipynb`
-- `manufacturing_ai_lab2_2.ipynb`
+- `notebooks/manufacturing/lab2-1.ipynb`
+- `notebooks/manufacturing/lab2-2.ipynb`
 
 ### Tracked Directory Hierarchy (origin/main, depth ≤ 3)
 - None (flat root layout)
@@ -59,12 +59,12 @@ This document specifies the baseline directory structure, target standard archit
 - `<student-notebook-06>`
 - `<student-notebook-07>`
 - `README.md`
-- `lab4_1_regression_activation_and_loss.ipynb`
-- `lab4_2_classification_activation_and_loss.ipynb`
+- `notebooks/templates/lab4-1.ipynb`
+- `notebooks/templates/lab4-2.ipynb`
 - `lab4_3_challenging_problems.ipynb`
 - `lab4_4_techniques_for_challenging_problems.ipynb`
-- `manufacturing_ai_lab2_1.ipynb`
-- `manufacturing_ai_lab2_2.ipynb`
+- `notebooks/manufacturing/lab2-1.ipynb`
+- `notebooks/manufacturing/lab2-2.ipynb`
 - `rag-manifest.json`
 
 ### Tracked Directory Hierarchy (Target, depth ≤ 3)

@@ -954,11 +954,11 @@
       "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
     },
     {
-      "path": "lab4_1_regression_activation_and_loss.ipynb",
+      "path": "notebooks/templates/lab4-1.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
-      "path": "lab4_2_classification_activation_and_loss.ipynb",
+      "path": "notebooks/templates/lab4-2.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
@@ -970,11 +970,11 @@
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
-      "path": "manufacturing_ai_lab2_1.ipynb",
+      "path": "notebooks/manufacturing/lab2-1.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
-      "path": "manufacturing_ai_lab2_2.ipynb",
+      "path": "notebooks/manufacturing/lab2-2.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
@@ -1034,12 +1034,12 @@
     "2026154001_정용석_linear_regression.ipynb",
     "2026154001_정용석_logistic_regression.ipynb",
     "2026154001_정용석_mnist_nn_classification.ipynb",
-    "lab4_1_regression_activation_and_loss.ipynb",
-    "lab4_2_classification_activation_and_loss.ipynb",
+    "notebooks/templates/lab4-1.ipynb",
+    "notebooks/templates/lab4-2.ipynb",
     "lab4_3_challenging_problems.ipynb",
     "lab4_4_techniques_for_challenging_problems.ipynb",
-    "manufacturing_ai_lab2_1.ipynb",
-    "manufacturing_ai_lab2_2.ipynb",
+    "notebooks/manufacturing/lab2-1.ipynb",
+    "notebooks/manufacturing/lab2-2.ipynb",
     "assets/images/*",
     "assets/binaries/*",
     "assets/videos/*",
@@ -1061,12 +1061,12 @@
     "2026154001_정용석_linear_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
     "2026154001_정용석_logistic_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
     "2026154001_정용석_mnist_nn_classification.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
-    "lab4_1_regression_activation_and_loss.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "lab4_2_classification_activation_and_loss.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "lab4_3_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "lab4_4_techniques_for_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "manufacturing_ai_lab2_1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "manufacturing_ai_lab2_2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/manufacturing/lab2-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/manufacturing/lab2-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "assets/images/*": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
     "assets/binaries/*": "binary-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
     "assets/videos/*": "video-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
