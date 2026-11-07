@@ -2,6 +2,16 @@
   "manifest_version": "1.0.0",
   "repo": "joseki-korea/cbnu-phd-coursework",
   "updated": "2026-11-07",
+  "note": "Precedence: include_paths take precedence over excluded_paths. Excluded media globs omit binary/media payloads; metadata README and drive-manifest files are explicitly re-included. Standard secrets and generated output globs are policy-guarded.",
+  "include_paths": [
+    "assets/images/README.md",
+    "assets/images/drive-manifest.json",
+    "assets/binaries/README.md",
+    "assets/binaries/drive-manifest.json",
+    "assets/videos/README.md",
+    "assets/videos/drive-manifest.json",
+    "assets/ui-components/README.md"
+  ],
   "docs": [
     {
       "path": "AGENTS.md",
@@ -771,19 +781,51 @@
     },
     {
       "path": "assets/images/*",
-      "reason": "media-asset (managed via Drive manifest)"
+      "reason": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
     },
     {
       "path": "assets/binaries/*",
-      "reason": "binary-asset (managed via Drive manifest)"
+      "reason": "binary-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
     },
     {
       "path": "assets/videos/*",
-      "reason": "video-asset (managed via Drive manifest)"
+      "reason": "video-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
     },
     {
       "path": ".git",
       "reason": "vcs-internal"
+    },
+    {
+      "path": ".env*",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "*.key",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "secrets/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "node_modules/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "dist/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "build/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": ".cache/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "__pycache__/**",
+      "reason": "policy-guard"
     }
   ],
   "excluded_paths": [
@@ -803,7 +845,15 @@
     "assets/images/*",
     "assets/binaries/*",
     "assets/videos/*",
-    ".git"
+    ".git",
+    ".env*",
+    "*.key",
+    "secrets/**",
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".cache/**",
+    "__pycache__/**"
   ],
   "excluded_reasons": {
     "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
@@ -819,9 +869,17 @@
     "lab4_4_techniques_for_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "manufacturing_ai_lab2_1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "manufacturing_ai_lab2_2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "assets/images/*": "media-asset (managed via Drive manifest)",
-    "assets/binaries/*": "binary-asset (managed via Drive manifest)",
-    "assets/videos/*": "video-asset (managed via Drive manifest)",
-    ".git": "vcs-internal"
+    "assets/images/*": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    "assets/binaries/*": "binary-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    "assets/videos/*": "video-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    ".git": "vcs-internal",
+    ".env*": "policy-guard",
+    "*.key": "policy-guard",
+    "secrets/**": "policy-guard",
+    "node_modules/**": "policy-guard",
+    "dist/**": "policy-guard",
+    "build/**": "policy-guard",
+    ".cache/**": "policy-guard",
+    "__pycache__/**": "policy-guard"
   }
 }
