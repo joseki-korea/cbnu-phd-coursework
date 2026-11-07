@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/codex-rules.md"
-title: "Codex Terra Agent Operational Rules"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "rules"
+id: cbnu-phd-coursework/docs/agents/codex-rules.md
+title: Codex Terra Agent Operational Rules
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: rules
 tags:
-  - "codex"
-  - "rules"
-  - "worker"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/codex-rules.md"
+- codex
+- rules
+- worker
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/codex-rules.md
+summary: Codex Terra Agent Operational Rules for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/codex-rules.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Codex Terra Operational Rules — cbnu-phd-coursework

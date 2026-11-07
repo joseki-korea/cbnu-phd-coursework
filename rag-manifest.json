@@ -39,7 +39,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "3c0d4b13"
+      "sha8": "34eb48d9"
     },
     {
       "path": "CLAUDE.md",
@@ -82,7 +82,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "689b9680"
+      "sha8": "43fc3195"
     },
     {
       "path": "RULES.md",
@@ -95,7 +95,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "3187f032"
+      "sha8": "535cc247"
     },
     {
       "path": "assets/README.md",
@@ -108,7 +108,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "c63b2a2e"
+      "sha8": "2f8d30b4"
     },
     {
       "path": "assets/binaries/README.md",
@@ -121,7 +121,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "3ce082c2"
+      "sha8": "57e9ba3d"
     },
     {
       "path": "assets/components/README.md",
@@ -134,7 +134,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "1075fc1b"
+      "sha8": "268b4630"
     },
     {
       "path": "assets/images/README.md",
@@ -147,7 +147,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "06201ae3"
+      "sha8": "638ee561"
     },
     {
       "path": "assets/src/README.md",
@@ -160,7 +160,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "7cd10e59"
+      "sha8": "aa4a1807"
     },
     {
       "path": "assets/ui-components/README.md",
@@ -173,7 +173,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "3ea9e111"
+      "sha8": "1f7950b2"
     },
     {
       "path": "assets/videos/README.md",
@@ -186,7 +186,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "eb4055c2"
+      "sha8": "0fbb101e"
     },
     {
       "path": "docs/ARCHITECTURE.md",
@@ -200,7 +200,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "9af75ceb"
+      "sha8": "8b079a2e"
     },
     {
       "path": "docs/ASSET-MAP.md",
@@ -214,7 +214,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "776de59d"
+      "sha8": "b9148c5c"
     },
     {
       "path": "docs/README.md",
@@ -227,7 +227,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "9e63121a"
+      "sha8": "c7fb6e03"
     },
     {
       "path": "docs/ROLES.md",
@@ -241,7 +241,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "b5761ecc"
+      "sha8": "5228b9d6"
     },
     {
       "path": "docs/RULES.md",
@@ -255,7 +255,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "3efd3c43"
+      "sha8": "52f506c0"
     },
     {
       "path": "docs/agents/README.md",
@@ -269,7 +269,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "07c92a6a"
+      "sha8": "ea83cd3c"
     },
     {
       "path": "docs/agents/antigravity-role.md",
@@ -283,7 +283,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "8ed45ee6"
+      "sha8": "830e874a"
     },
     {
       "path": "docs/agents/antigravity-rules.md",
@@ -297,7 +297,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "62ba49c3"
+      "sha8": "b00e1c0d"
     },
     {
       "path": "docs/agents/claude-role.md",
@@ -311,7 +311,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "d97aa707"
+      "sha8": "37e061b6"
     },
     {
       "path": "docs/agents/claude-rules.md",
@@ -325,7 +325,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "7ce11308"
+      "sha8": "b52df9d2"
     },
     {
       "path": "docs/agents/codex-role.md",
@@ -339,7 +339,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "b57cb903"
+      "sha8": "84c4a0d4"
     },
     {
       "path": "docs/agents/codex-rules.md",
@@ -353,7 +353,7 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "b1d3f5fb"
+      "sha8": "80a79175"
     },
     {
       "path": "handoffs/README.md",
@@ -366,7 +366,205 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "d7fe9a83"
+      "sha8": "e37725a8"
+    },
+    {
+      "path": "RAG.md",
+      "id": "cbnu-phd-coursework/RAG.md",
+      "title": "RAG ingestion",
+      "doc_type": "rag",
+      "tags": [
+        "rag"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "a0a27726"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "id": "cbnu-phd-coursework/CONTRIBUTING.md",
+      "title": "Contributing",
+      "doc_type": "contributing",
+      "tags": [
+        "contributing"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "021b8699"
+    },
+    {
+      "path": "docs/glossary.md",
+      "id": "cbnu-phd-coursework/docs/glossary.md",
+      "title": "Glossary",
+      "doc_type": "glossary",
+      "tags": [
+        "glossary"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "ccaffab5"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "id": "cbnu-phd-coursework/.github/pull_request_template.md",
+      "title": "Pull request template",
+      "doc_type": "pull-request",
+      "tags": [
+        "pull-request"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "be1bdd5b"
+    },
+    {
+      "path": "assets/MANIFEST.md",
+      "id": "cbnu-phd-coursework/assets/MANIFEST.md",
+      "title": "Large-file manifest",
+      "doc_type": "manifest",
+      "tags": [
+        "manifest"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "f9624d61"
+    },
+    {
+      "path": "assets/ui/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/README.md",
+      "title": "UI assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "8c02daa7"
+    },
+    {
+      "path": "assets/images/screenshots/README.md",
+      "id": "cbnu-phd-coursework/assets/images/screenshots/README.md",
+      "title": "images/screenshots assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "b39c0c56"
+    },
+    {
+      "path": "assets/images/brand/README.md",
+      "id": "cbnu-phd-coursework/assets/images/brand/README.md",
+      "title": "images/brand assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "9d36e126"
+    },
+    {
+      "path": "assets/images/diagrams/README.md",
+      "id": "cbnu-phd-coursework/assets/images/diagrams/README.md",
+      "title": "images/diagrams assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "0b749224"
+    },
+    {
+      "path": "assets/images/product/README.md",
+      "id": "cbnu-phd-coursework/assets/images/product/README.md",
+      "title": "images/product assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cfd13954"
+    },
+    {
+      "path": "assets/images/photos/README.md",
+      "id": "cbnu-phd-coursework/assets/images/photos/README.md",
+      "title": "images/photos assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "497f98c5"
+    },
+    {
+      "path": "assets/ui/components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/components/README.md",
+      "title": "ui/components assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "4998bd2a"
+    },
+    {
+      "path": "assets/ui/mockups/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/mockups/README.md",
+      "title": "ui/mockups assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "d2f51e66"
+    },
+    {
+      "path": "assets/ui/icons/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/icons/README.md",
+      "title": "ui/icons assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cb03c5bb"
+    },
+    {
+      "path": "assets/ui/tokens/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/tokens/README.md",
+      "title": "ui/tokens assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cd0759b7"
+    },
+    {
+      "path": "docs/agents/ROLE-claude.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-claude.md",
+      "title": "claude role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "5bf22fc8"
+    },
+    {
+      "path": "docs/agents/ROLE-codex.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-codex.md",
+      "title": "codex role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "e35b7f43"
+    },
+    {
+      "path": "docs/agents/ROLE-antigravity.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-antigravity.md",
+      "title": "antigravity role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "971de9f0"
     }
   ],
   "documents": [

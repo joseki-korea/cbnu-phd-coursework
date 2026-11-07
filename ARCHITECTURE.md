@@ -1,15 +1,24 @@
 ---
-id: "cbnu-phd-coursework/ARCHITECTURE.md"
-title: "Repository Architecture Pointer"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "architecture"
+id: cbnu-phd-coursework/ARCHITECTURE.md
+title: Repository Architecture Pointer
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: architecture
 tags:
-  - "architecture"
-  - "pointer"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/ARCHITECTURE.md"
+- architecture
+- pointer
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/ARCHITECTURE.md
+summary: Repository Architecture Pointer for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: ARCHITECTURE.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Repository Architecture — cbnu-phd-coursework

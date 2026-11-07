@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/ASSET-MAP.md"
-title: "Asset Mapping and Semantic Migration Plan"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "architecture"
+id: cbnu-phd-coursework/docs/ASSET-MAP.md
+title: Asset Mapping and Semantic Migration Plan
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: architecture
 tags:
-  - "architecture"
-  - "assets"
-  - "semantic-reorg"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/ASSET-MAP.md"
+- architecture
+- assets
+- semantic-reorg
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/ASSET-MAP.md
+summary: Asset Mapping and Semantic Migration Plan for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/ASSET-MAP.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Asset Mapping & Semantic Reorganization Plan — cbnu-phd-coursework

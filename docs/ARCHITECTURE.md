@@ -1,16 +1,25 @@
 ---
 id: cbnu-phd-coursework/docs/ARCHITECTURE.md
-title: "Repository Architecture and Migration Design"
+title: Repository Architecture and Migration Design
 repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: architecture
 tags:
-  - architecture
-  - directory-design
-  - migration-plan
+- architecture
+- directory-design
+- migration-plan
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: docs/ARCHITECTURE.md
+summary: Repository Architecture and Migration Design for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/ARCHITECTURE.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Repository Architecture and Migration Design

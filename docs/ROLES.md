@@ -1,16 +1,25 @@
 ---
 id: cbnu-phd-coursework/docs/ROLES.md
-title: "Agent Roles and Session Allocation"
+title: Agent Roles and Session Allocation
 repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: roles
 tags:
-  - roles
-  - orchestration
-  - multi-agent
+- roles
+- orchestration
+- multi-agent
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: docs/ROLES.md
+summary: Agent Roles and Session Allocation for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/ROLES.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Agent Roles and Session Allocation

@@ -1,15 +1,24 @@
 ---
 id: cbnu-phd-coursework/assets/videos/README.md
-title: "Video Assets Index"
+title: Video Assets Index
 repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: asset-index
 tags:
-  - assets
-  - videos
+- assets
+- videos
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: assets/videos/README.md
+summary: Video Assets Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/videos/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Video Assets Index

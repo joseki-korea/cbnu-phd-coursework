@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/claude-role.md"
-title: "Claude Lead Orchestrator Role Definition"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "roles"
+id: cbnu-phd-coursework/docs/agents/claude-role.md
+title: Claude Lead Orchestrator Role Definition
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: roles
 tags:
-  - "claude"
-  - "role"
-  - "control"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/claude-role.md"
+- claude
+- role
+- control
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/claude-role.md
+summary: Claude Lead Orchestrator Role Definition for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/claude-role.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Claude Role Definition — cbnu-phd-coursework

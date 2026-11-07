@@ -5,12 +5,21 @@ repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: rules
 tags:
-  - rules
-  - governance
-  - draft
+- rules
+- governance
+- draft
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: docs/RULES.md
+summary: Repository Governance Rules for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/RULES.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Repository Governance Rules

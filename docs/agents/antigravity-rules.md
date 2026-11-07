@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/antigravity-rules.md"
-title: "Antigravity Agent Operational Rules"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "rules"
+id: cbnu-phd-coursework/docs/agents/antigravity-rules.md
+title: Antigravity Agent Operational Rules
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: rules
 tags:
-  - "antigravity"
-  - "rules"
-  - "worker"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/antigravity-rules.md"
+- antigravity
+- rules
+- worker
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/antigravity-rules.md
+summary: Antigravity Agent Operational Rules for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/antigravity-rules.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Antigravity Operational Rules — cbnu-phd-coursework

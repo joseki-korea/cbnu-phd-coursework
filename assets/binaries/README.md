@@ -5,11 +5,20 @@ repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: asset-index
 tags:
-  - assets
-  - binaries
+- assets
+- binaries
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: assets/binaries/README.md
+summary: Binary Artifacts Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/binaries/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Binary Artifacts Index

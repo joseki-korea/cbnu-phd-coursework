@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/claude-rules.md"
-title: "Claude Agent Operational Rules"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "rules"
+id: cbnu-phd-coursework/docs/agents/claude-rules.md
+title: Claude Agent Operational Rules
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: rules
 tags:
-  - "claude"
-  - "rules"
-  - "control"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/claude-rules.md"
+- claude
+- rules
+- control
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/claude-rules.md
+summary: Claude Agent Operational Rules for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/claude-rules.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Claude Operational Rules — cbnu-phd-coursework

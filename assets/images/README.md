@@ -5,11 +5,20 @@ repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: asset-index
 tags:
-  - assets
-  - images
+- assets
+- images
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: assets/images/README.md
+summary: Image Assets Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/images/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Image Assets Index

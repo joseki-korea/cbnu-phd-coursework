@@ -5,11 +5,20 @@ repo: joseki-korea/cbnu-phd-coursework
 device_scope: all
 doc_type: asset-index
 tags:
-  - assets
-  - components
+- assets
+- components
 status: DRAFT
 updated: '2026-11-07'
 source_of_truth: assets/components/README.md
+summary: Reusable Components Asset Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/components/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Reusable Components Asset Index

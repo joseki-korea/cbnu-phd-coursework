@@ -1,15 +1,24 @@
 ---
-id: "cbnu-phd-coursework/assets/ui-components/README.md"
-title: "UI Components Asset Index"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "asset-index"
+id: cbnu-phd-coursework/assets/ui-components/README.md
+title: UI Components Asset Index
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: asset-index
 tags:
-  - "assets"
-  - "ui-components"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "assets/ui-components/README.md"
+- assets
+- ui-components
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: assets/ui-components/README.md
+summary: UI Components Asset Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/ui-components/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # UI Components Asset Index — cbnu-phd-coursework

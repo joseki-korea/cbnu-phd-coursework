@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/codex-role.md"
-title: "Codex Terra Worker Role Definition"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "roles"
+id: cbnu-phd-coursework/docs/agents/codex-role.md
+title: Codex Terra Worker Role Definition
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: roles
 tags:
-  - "codex"
-  - "role"
-  - "worker"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/codex-role.md"
+- codex
+- role
+- worker
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/codex-role.md
+summary: Codex Terra Worker Role Definition for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/codex-role.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Codex Terra Role Definition — cbnu-phd-coursework

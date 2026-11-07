@@ -1,16 +1,25 @@
 ---
-id: "cbnu-phd-coursework/docs/agents/antigravity-role.md"
-title: "Antigravity Worker Role Definition"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "roles"
+id: cbnu-phd-coursework/docs/agents/antigravity-role.md
+title: Antigravity Worker Role Definition
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: roles
 tags:
-  - "antigravity"
-  - "role"
-  - "worker"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/agents/antigravity-role.md"
+- antigravity
+- role
+- worker
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/agents/antigravity-role.md
+summary: Antigravity Worker Role Definition for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: docs/agents/antigravity-role.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Antigravity Role Definition — cbnu-phd-coursework

@@ -1,15 +1,24 @@
 ---
-id: "cbnu-phd-coursework/RULES.md"
-title: "Repository Global Rules Pointer"
-repo: "joseki-korea/cbnu-phd-coursework"
-device_scope: "all"
-doc_type: "rules"
+id: cbnu-phd-coursework/RULES.md
+title: Repository Global Rules Pointer
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: rules
 tags:
-  - "rules"
-  - "pointer"
-status: "DRAFT"
-updated: "2026-11-07"
-source_of_truth: "docs/RULES.md"
+- rules
+- pointer
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: docs/RULES.md
+summary: Repository Global Rules Pointer for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: RULES.md
+lang: en
+sensitivity: internal
+related:
+- README.md
 ---
 
 # Repository Global Rules — cbnu-phd-coursework
