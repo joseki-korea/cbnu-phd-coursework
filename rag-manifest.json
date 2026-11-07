@@ -69,6 +69,17 @@
       "sha8": "7cd10e59"
     },
     {
+      "path": "assets/videos/README.md",
+      "id": "cbnu-phd-coursework/assets/videos/README.md",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "standard-documentation"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "eb4055c2"
+    },
+    {
       "path": "docs/ARCHITECTURE.md",
       "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
       "doc_type": "architecture",
@@ -77,7 +88,7 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "6ff64a3f"
+      "sha8": "acf29c29"
     },
     {
       "path": "docs/README.md",
@@ -99,7 +110,7 @@
         "standard-documentation"
       ],
       "updated": "2026-11-07",
-      "sha8": "e8d154c8"
+      "sha8": "b5761ecc"
     },
     {
       "path": "docs/RULES.md",
@@ -127,6 +138,7 @@
   "excluded": [
     "assets/images/**",
     "assets/binaries/**",
+    "assets/videos/**",
     "secrets/**",
     "dist/**",
     "build/**",

@@ -30,6 +30,7 @@ Target directory structure conforming to `REPO-STANDARD-ALL-20261107`:
 - `assets/binaries/`
 - `assets/components/`
 - `assets/images/`
+- `assets/videos/`
 - `assets/src/`
 - `docs/`
 - `handoffs/`
