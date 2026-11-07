@@ -39,8 +39,8 @@ This document specifies the baseline directory structure, target standard archit
 - `<student-notebook-07>`
 - `notebooks/templates/lab4-1.ipynb`
 - `notebooks/templates/lab4-2.ipynb`
-- `lab4_3_challenging_problems.ipynb`
-- `lab4_4_techniques_for_challenging_problems.ipynb`
+- `notebooks/templates/lab4-3.ipynb`
+- `notebooks/templates/lab4-4.ipynb`
 - `notebooks/manufacturing/lab2-1.ipynb`
 - `notebooks/manufacturing/lab2-2.ipynb`
 
@@ -61,8 +61,8 @@ This document specifies the baseline directory structure, target standard archit
 - `README.md`
 - `notebooks/templates/lab4-1.ipynb`
 - `notebooks/templates/lab4-2.ipynb`
-- `lab4_3_challenging_problems.ipynb`
-- `lab4_4_techniques_for_challenging_problems.ipynb`
+- `notebooks/templates/lab4-3.ipynb`
+- `notebooks/templates/lab4-4.ipynb`
 - `notebooks/manufacturing/lab2-1.ipynb`
 - `notebooks/manufacturing/lab2-2.ipynb`
 - `rag-manifest.json`

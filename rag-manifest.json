@@ -962,11 +962,11 @@
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
-      "path": "lab4_3_challenging_problems.ipynb",
+      "path": "notebooks/templates/lab4-3.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
-      "path": "lab4_4_techniques_for_challenging_problems.ipynb",
+      "path": "notebooks/templates/lab4-4.ipynb",
       "reason": "notebook-binary (Jupyter assignment notebook artifact)"
     },
     {
@@ -1036,8 +1036,8 @@
     "2026154001_정용석_mnist_nn_classification.ipynb",
     "notebooks/templates/lab4-1.ipynb",
     "notebooks/templates/lab4-2.ipynb",
-    "lab4_3_challenging_problems.ipynb",
-    "lab4_4_techniques_for_challenging_problems.ipynb",
+    "notebooks/templates/lab4-3.ipynb",
+    "notebooks/templates/lab4-4.ipynb",
     "notebooks/manufacturing/lab2-1.ipynb",
     "notebooks/manufacturing/lab2-2.ipynb",
     "assets/images/*",
@@ -1063,8 +1063,8 @@
     "2026154001_정용석_mnist_nn_classification.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
     "notebooks/templates/lab4-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "notebooks/templates/lab4-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "lab4_3_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
-    "lab4_4_techniques_for_challenging_problems.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-3.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-4.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "notebooks/manufacturing/lab2-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "notebooks/manufacturing/lab2-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
     "assets/images/*": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
