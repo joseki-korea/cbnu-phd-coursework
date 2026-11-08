@@ -1,0 +1,30 @@
+# Exclude generated content and sensitive or binary data
+.git/
+node_modules/
+.venv/
+venv/
+build/
+dist/
+out/
+.next/
+__pycache__/
+*.env
+.env*
+*.key
+*.pem
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.zip
+*.mp4
+!assets/**/README.md
+!assets/**/drive-manifest.json
+
+# Local vector indexes
+.rag-index/
+*.sqlite
+*.faiss
+*.npy
+*.npz

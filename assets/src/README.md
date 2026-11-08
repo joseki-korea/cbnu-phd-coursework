@@ -1,0 +1,27 @@
+---
+id: cbnu-phd-coursework/assets/src/README.md
+title: Source Snippets Asset Index
+repo: joseki-korea/cbnu-phd-coursework
+device_scope: all
+doc_type: asset-index
+tags:
+- assets
+- source-snippets
+status: DRAFT
+updated: '2026-11-07'
+source_of_truth: assets/src/README.md
+summary: Source Snippets Asset Index for cbnu-phd-coursework.
+domain: cbnu-phd-coursework
+owner: repository maintainers
+created: '2026-11-08'
+source: assets/src/README.md
+lang: en
+sensitivity: internal
+related:
+- README.md
+---
+
+# Source Snippets Asset Index
+
+## Purpose
+This directory houses reusable source code snippets, templates, and reference implementations.

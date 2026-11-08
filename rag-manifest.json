@@ -1,0 +1,1083 @@
+{
+  "manifest_version": "1.0.0",
+  "repo": "joseki-korea/cbnu-phd-coursework",
+  "updated": "2026-11-07",
+  "note": "Precedence: include_paths take precedence over excluded_paths. Excluded media globs omit binary/media payloads; metadata README and drive-manifest files are explicitly re-included. Standard secrets and generated output globs are policy-guarded.",
+  "include_paths": [
+    "assets/images/README.md",
+    "assets/images/drive-manifest.json",
+    "assets/binaries/README.md",
+    "assets/binaries/drive-manifest.json",
+    "assets/videos/README.md",
+    "assets/videos/drive-manifest.json",
+    "assets/ui-components/README.md"
+  ],
+  "docs": [
+    {
+      "path": "AGENTS.md",
+      "id": "cbnu-phd-coursework/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "cd55137c",
+      "source_of_truth": "docs/agents/codex-role.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "34eb48d9"
+    },
+    {
+      "path": "CLAUDE.md",
+      "id": "cbnu-phd-coursework/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "04276dda",
+      "source_of_truth": "docs/agents/claude-role.md"
+    },
+    {
+      "path": "GEMINI.md",
+      "id": "cbnu-phd-coursework/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "2dc99cb5",
+      "source_of_truth": "docs/agents/antigravity-role.md"
+    },
+    {
+      "path": "README.md",
+      "id": "cbnu-phd-coursework/README.md",
+      "title": "cbnu-phd-coursework",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "project-overview"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7b6258cc"
+    },
+    {
+      "path": "RULES.md",
+      "id": "cbnu-phd-coursework/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "535cc247"
+    },
+    {
+      "path": "assets/README.md",
+      "id": "cbnu-phd-coursework/assets/README.md",
+      "title": "Assets Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "2f8d30b4"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "cbnu-phd-coursework/assets/binaries/README.md",
+      "title": "Binary Artifacts Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "binaries"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "57e9ba3d"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "cbnu-phd-coursework/assets/components/README.md",
+      "title": "Reusable Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "268b4630"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "cbnu-phd-coursework/assets/images/README.md",
+      "title": "Image Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "images"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "638ee561"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "cbnu-phd-coursework/assets/src/README.md",
+      "title": "Source Snippets Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "source-snippets"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "aa4a1807"
+    },
+    {
+      "path": "assets/ui-components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui-components/README.md",
+      "title": "UI Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "1f7950b2"
+    },
+    {
+      "path": "assets/videos/README.md",
+      "id": "cbnu-phd-coursework/assets/videos/README.md",
+      "title": "Video Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "0fbb101e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Migration Design",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "directory-design",
+        "migration-plan"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "8b079a2e"
+    },
+    {
+      "path": "docs/ASSET-MAP.md",
+      "id": "cbnu-phd-coursework/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b9148c5c"
+    },
+    {
+      "path": "docs/README.md",
+      "id": "cbnu-phd-coursework/docs/README.md",
+      "title": "Docs Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "c7fb6e03"
+    },
+    {
+      "path": "docs/ROLES.md",
+      "id": "cbnu-phd-coursework/docs/ROLES.md",
+      "title": "Agent Roles and Session Allocation",
+      "doc_type": "roles",
+      "tags": [
+        "roles",
+        "orchestration",
+        "multi-agent"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "5228b9d6"
+    },
+    {
+      "path": "docs/RULES.md",
+      "id": "cbnu-phd-coursework/docs/RULES.md",
+      "title": "Repository Governance Rules",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "governance",
+        "draft"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "52f506c0"
+    },
+    {
+      "path": "docs/agents/README.md",
+      "id": "cbnu-phd-coursework/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "roles",
+        "rules"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "ea83cd3c"
+    },
+    {
+      "path": "docs/agents/antigravity-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "830e874a"
+    },
+    {
+      "path": "docs/agents/antigravity-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b00e1c0d"
+    },
+    {
+      "path": "docs/agents/claude-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "37e061b6"
+    },
+    {
+      "path": "docs/agents/claude-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b52df9d2"
+    },
+    {
+      "path": "docs/agents/codex-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "84c4a0d4"
+    },
+    {
+      "path": "docs/agents/codex-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "80a79175"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "cbnu-phd-coursework/handoffs/README.md",
+      "title": "Agent Session Handoff Records",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "session-notes"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "e37725a8"
+    },
+    {
+      "path": "RAG.md",
+      "id": "cbnu-phd-coursework/RAG.md",
+      "title": "RAG ingestion",
+      "doc_type": "rag",
+      "tags": [
+        "rag"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "a0a27726"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "id": "cbnu-phd-coursework/CONTRIBUTING.md",
+      "title": "Contributing",
+      "doc_type": "contributing",
+      "tags": [
+        "contributing"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "021b8699"
+    },
+    {
+      "path": "docs/glossary.md",
+      "id": "cbnu-phd-coursework/docs/glossary.md",
+      "title": "Glossary",
+      "doc_type": "glossary",
+      "tags": [
+        "glossary"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "ccaffab5"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "id": "cbnu-phd-coursework/.github/pull_request_template.md",
+      "title": "Pull request template",
+      "doc_type": "pull-request",
+      "tags": [
+        "pull-request"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "be1bdd5b"
+    },
+    {
+      "path": "assets/MANIFEST.md",
+      "id": "cbnu-phd-coursework/assets/MANIFEST.md",
+      "title": "Large-file manifest",
+      "doc_type": "manifest",
+      "tags": [
+        "manifest"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "f9624d61"
+    },
+    {
+      "path": "assets/ui/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/README.md",
+      "title": "UI assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "8c02daa7"
+    },
+    {
+      "path": "assets/images/screenshots/README.md",
+      "id": "cbnu-phd-coursework/assets/images/screenshots/README.md",
+      "title": "images/screenshots assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "b39c0c56"
+    },
+    {
+      "path": "assets/images/brand/README.md",
+      "id": "cbnu-phd-coursework/assets/images/brand/README.md",
+      "title": "images/brand assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "9d36e126"
+    },
+    {
+      "path": "assets/images/diagrams/README.md",
+      "id": "cbnu-phd-coursework/assets/images/diagrams/README.md",
+      "title": "images/diagrams assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "0b749224"
+    },
+    {
+      "path": "assets/images/product/README.md",
+      "id": "cbnu-phd-coursework/assets/images/product/README.md",
+      "title": "images/product assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cfd13954"
+    },
+    {
+      "path": "assets/images/photos/README.md",
+      "id": "cbnu-phd-coursework/assets/images/photos/README.md",
+      "title": "images/photos assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "497f98c5"
+    },
+    {
+      "path": "assets/ui/components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/components/README.md",
+      "title": "ui/components assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "4998bd2a"
+    },
+    {
+      "path": "assets/ui/mockups/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/mockups/README.md",
+      "title": "ui/mockups assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "d2f51e66"
+    },
+    {
+      "path": "assets/ui/icons/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/icons/README.md",
+      "title": "ui/icons assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cb03c5bb"
+    },
+    {
+      "path": "assets/ui/tokens/README.md",
+      "id": "cbnu-phd-coursework/assets/ui/tokens/README.md",
+      "title": "ui/tokens assets",
+      "doc_type": "readme",
+      "tags": [
+        "readme"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "cd0759b7"
+    },
+    {
+      "path": "docs/agents/ROLE-claude.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-claude.md",
+      "title": "claude role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "5bf22fc8"
+    },
+    {
+      "path": "docs/agents/ROLE-codex.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-codex.md",
+      "title": "codex role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "e35b7f43"
+    },
+    {
+      "path": "docs/agents/ROLE-antigravity.md",
+      "id": "cbnu-phd-coursework/docs/agents/ROLE-antigravity.md",
+      "title": "antigravity role",
+      "doc_type": "role",
+      "tags": [
+        "role"
+      ],
+      "updated": "2026-11-08",
+      "sha8": "971de9f0"
+    }
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "id": "cbnu-phd-coursework/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "cd55137c",
+      "source_of_truth": "docs/agents/codex-role.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3c0d4b13"
+    },
+    {
+      "path": "CLAUDE.md",
+      "id": "cbnu-phd-coursework/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "04276dda",
+      "source_of_truth": "docs/agents/claude-role.md"
+    },
+    {
+      "path": "GEMINI.md",
+      "id": "cbnu-phd-coursework/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "2dc99cb5",
+      "source_of_truth": "docs/agents/antigravity-role.md"
+    },
+    {
+      "path": "README.md",
+      "id": "cbnu-phd-coursework/README.md",
+      "title": "cbnu-phd-coursework",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "project-overview"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "689b9680"
+    },
+    {
+      "path": "RULES.md",
+      "id": "cbnu-phd-coursework/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3187f032"
+    },
+    {
+      "path": "assets/README.md",
+      "id": "cbnu-phd-coursework/assets/README.md",
+      "title": "Assets Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "c63b2a2e"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "cbnu-phd-coursework/assets/binaries/README.md",
+      "title": "Binary Artifacts Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "binaries"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3ce082c2"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "cbnu-phd-coursework/assets/components/README.md",
+      "title": "Reusable Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "1075fc1b"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "cbnu-phd-coursework/assets/images/README.md",
+      "title": "Image Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "images"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "06201ae3"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "cbnu-phd-coursework/assets/src/README.md",
+      "title": "Source Snippets Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "source-snippets"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7cd10e59"
+    },
+    {
+      "path": "assets/ui-components/README.md",
+      "id": "cbnu-phd-coursework/assets/ui-components/README.md",
+      "title": "UI Components Asset Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3ea9e111"
+    },
+    {
+      "path": "assets/videos/README.md",
+      "id": "cbnu-phd-coursework/assets/videos/README.md",
+      "title": "Video Assets Index",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "eb4055c2"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "id": "cbnu-phd-coursework/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Migration Design",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "directory-design",
+        "migration-plan"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "9af75ceb"
+    },
+    {
+      "path": "docs/ASSET-MAP.md",
+      "id": "cbnu-phd-coursework/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "776de59d"
+    },
+    {
+      "path": "docs/README.md",
+      "id": "cbnu-phd-coursework/docs/README.md",
+      "title": "Docs Index",
+      "doc_type": "readme",
+      "tags": [
+        "readme",
+        "folder-index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "9e63121a"
+    },
+    {
+      "path": "docs/ROLES.md",
+      "id": "cbnu-phd-coursework/docs/ROLES.md",
+      "title": "Agent Roles and Session Allocation",
+      "doc_type": "roles",
+      "tags": [
+        "roles",
+        "orchestration",
+        "multi-agent"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b5761ecc"
+    },
+    {
+      "path": "docs/RULES.md",
+      "id": "cbnu-phd-coursework/docs/RULES.md",
+      "title": "Repository Governance Rules",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "governance",
+        "draft"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "3efd3c43"
+    },
+    {
+      "path": "docs/agents/README.md",
+      "id": "cbnu-phd-coursework/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "roles",
+        "rules"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "07c92a6a"
+    },
+    {
+      "path": "docs/agents/antigravity-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "8ed45ee6"
+    },
+    {
+      "path": "docs/agents/antigravity-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "62ba49c3"
+    },
+    {
+      "path": "docs/agents/claude-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "d97aa707"
+    },
+    {
+      "path": "docs/agents/claude-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "7ce11308"
+    },
+    {
+      "path": "docs/agents/codex-role.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b57cb903"
+    },
+    {
+      "path": "docs/agents/codex-rules.md",
+      "id": "cbnu-phd-coursework/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b1d3f5fb"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "cbnu-phd-coursework/handoffs/README.md",
+      "title": "Agent Session Handoff Records",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "session-notes"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "d7fe9a83"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_3_challenging_problems.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_linear_regression.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_logistic_regression.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "2026154001_정용석_mnist_nn_classification.ipynb",
+      "reason": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)"
+    },
+    {
+      "path": "notebooks/templates/lab4-1.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "notebooks/templates/lab4-2.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "notebooks/templates/lab4-3.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "notebooks/templates/lab4-4.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "notebooks/manufacturing/lab2-1.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "notebooks/manufacturing/lab2-2.ipynb",
+      "reason": "notebook-binary (Jupyter assignment notebook artifact)"
+    },
+    {
+      "path": "assets/images/*",
+      "reason": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
+    },
+    {
+      "path": "assets/binaries/*",
+      "reason": "binary-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
+    },
+    {
+      "path": "assets/videos/*",
+      "reason": "video-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)"
+    },
+    {
+      "path": ".git",
+      "reason": "vcs-internal"
+    },
+    {
+      "path": ".env*",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "*.key",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "secrets/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "node_modules/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "dist/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "build/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": ".cache/**",
+      "reason": "policy-guard"
+    },
+    {
+      "path": "__pycache__/**",
+      "reason": "policy-guard"
+    }
+  ],
+  "excluded_paths": [
+    "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
+    "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
+    "2026154001_정용석_lab4_3_challenging_problems.ipynb",
+    "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
+    "2026154001_정용석_linear_regression.ipynb",
+    "2026154001_정용석_logistic_regression.ipynb",
+    "2026154001_정용석_mnist_nn_classification.ipynb",
+    "notebooks/templates/lab4-1.ipynb",
+    "notebooks/templates/lab4-2.ipynb",
+    "notebooks/templates/lab4-3.ipynb",
+    "notebooks/templates/lab4-4.ipynb",
+    "notebooks/manufacturing/lab2-1.ipynb",
+    "notebooks/manufacturing/lab2-2.ipynb",
+    "assets/images/*",
+    "assets/binaries/*",
+    "assets/videos/*",
+    ".git",
+    ".env*",
+    "*.key",
+    "secrets/**",
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".cache/**",
+    "__pycache__/**"
+  ],
+  "excluded_reasons": {
+    "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_3_challenging_problems.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_linear_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_logistic_regression.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "2026154001_정용석_mnist_nn_classification.ipynb": "PII-pre-existing (pre-existing student identity in repository history; CEO decision: rename/private)",
+    "notebooks/templates/lab4-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-3.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/templates/lab4-4.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/manufacturing/lab2-1.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "notebooks/manufacturing/lab2-2.ipynb": "notebook-binary (Jupyter assignment notebook artifact)",
+    "assets/images/*": "media-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    "assets/binaries/*": "binary-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    "assets/videos/*": "video-asset (payloads managed via Drive manifest; README/manifest re-included via include_paths)",
+    ".git": "vcs-internal",
+    ".env*": "policy-guard",
+    "*.key": "policy-guard",
+    "secrets/**": "policy-guard",
+    "node_modules/**": "policy-guard",
+    "dist/**": "policy-guard",
+    "build/**": "policy-guard",
+    ".cache/**": "policy-guard",
+    "__pycache__/**": "policy-guard"
+  }
+}

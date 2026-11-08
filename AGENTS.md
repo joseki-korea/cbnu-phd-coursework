@@ -1,0 +1,21 @@
+# Codex Terra Agent Guidelines — cbnu-phd-coursework
+
+본 문서는 `cbnu-phd-coursework` 프로젝트에서 Codex Terra 에이전트의 역할과 작업 강령을 정의합니다.
+
+## 1. 역할 범위: Worker Session (작업 세션)
+- Codex Terra는 **작업 세션(Work Session)**으로서 핵심 비즈니스 로직, 데이터 계산 엔진, 백엔드 모듈 구현을 전담합니다.
+- 변경 작업 시 기존 코드를 파괴하지 않으며, 단독 커밋 및 철저한 테스트를 수반합니다.
+
+## 2. 운영 지침
+- 작업 완료 후 구체적인 코드 실행 증거를 제시합니다.
+- 상세 역할 및 규칙: 👉 **[docs/agents/codex-role.md](docs/agents/codex-role.md)** · **[docs/agents/codex-rules.md](docs/agents/codex-rules.md)**
+
+## 멀티에이전트 문서 (핸드오프·정리·감시·훅)
+- 핸드오프 규칙: [docs/agents/handoffs/README.md](docs/agents/handoffs/README.md)
+- 정리 담당: [docs/agents/ROLE-janitor.md](docs/agents/ROLE-janitor.md)
+- 감시 담당: [docs/agents/ROLE-watchdog.md](docs/agents/ROLE-watchdog.md)
+- 훅 목록: [docs/agents/HOOKS.md](docs/agents/HOOKS.md)
+
+## 규칙 상속 (전역 → 지역)
+
+전역 정본은 solucionemos-vault의 main 규칙 (`rules/INDEX.md`, Rule 00·01·02·04), `~/.claude/CLAUDE.md`, `~/orca/CLAUDE.md`이다. 지역 문서는 이 저장소의 `MODEL-SESSION-RULES.md`, `ROLES.md`, `PM.md`, `ARCHITECTURE.md`이며 저장소 맥락만 추가하고 전역 안전·승인 규칙을 완화할 수 없다.
