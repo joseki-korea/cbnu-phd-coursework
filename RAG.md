@@ -23,3 +23,7 @@ source_of_truth: RAG.md
 # RAG ingestion
 
 Use `rag-manifest.json` for indexed paths and hashes, and `.ragignore` to exclude generated, private, binary, and dependency content. Index the explicit README and manifest exceptions for media folders. Keep one topic per document, preserve provenance, and chunk long sections at ingestion. Never index secrets or personal data. Recompute hashes after documentation edits.
+
+## Wiki
+
+`docs/wiki/index.md` lists evidence-linked pages; `docs/wiki/SCHEMA.md` describes ingest, query, and lint. Run `python3 scripts/wiki-lint.py` and `python3 scripts/rag-manifest.py` after updates. Vector indexes are generated locally outside the repository.

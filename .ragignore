@@ -21,3 +21,10 @@ __pycache__/
 *.mp4
 !assets/**/README.md
 !assets/**/drive-manifest.json
+
+# Local vector indexes
+.rag-index/
+*.sqlite
+*.faiss
+*.npy
+*.npz
