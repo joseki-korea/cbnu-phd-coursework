@@ -1,21 +1,35 @@
 {"end_line": 26, "heading": "Summary", "id": "9f2ea4db4b67705b", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "f4074cf2", "start_line": 23, "tags": ["pull-request"]}
 {"end_line": 29, "heading": "Verification", "id": "eaa3d1a9f0911fc0", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "f4074cf2", "start_line": 27, "tags": ["pull-request"]}
-{"end_line": 4, "heading": "Codex Terra Agent Guidelines — cbnu-phd-coursework", "id": "8f562abb1f3f2e0c", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "b8fb5490", "start_line": 1, "tags": []}
-{"end_line": 8, "heading": "1. 역할 범위: Worker Session (작업 세션)", "id": "7d74cd015d4831f2", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "b8fb5490", "start_line": 5, "tags": []}
-{"end_line": 12, "heading": "2. 운영 지침", "id": "d2a7877a59247488", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "b8fb5490", "start_line": 9, "tags": []}
-{"end_line": 17, "heading": "멀티에이전트 문서 (핸드오프·정리·감시·훅)", "id": "275a8136145d067c", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "b8fb5490", "start_line": 13, "tags": []}
-{"end_line": 27, "heading": "Repository Architecture — cbnu-phd-coursework", "id": "2ec638809f181031", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "0ec15c2d", "start_line": 24, "tags": ["architecture", "pointer"]}
-{"end_line": 34, "heading": "1. 아키텍처 요약", "id": "cf429da5018cc353", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "0ec15c2d", "start_line": 28, "tags": ["architecture", "pointer"]}
-{"end_line": 37, "heading": "2. 정본 문서 안내", "id": "63de586a6a675f58", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "0ec15c2d", "start_line": 35, "tags": ["architecture", "pointer"]}
-{"end_line": 4, "heading": "Claude Agent Guidelines — cbnu-phd-coursework", "id": "ec4acb2b6b013b4f", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "fd9839e8", "start_line": 1, "tags": []}
-{"end_line": 9, "heading": "1. 역할 범위: Control & Monitoring ONLY", "id": "2b1cf18575f27a1b", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "fd9839e8", "start_line": 5, "tags": []}
-{"end_line": 13, "heading": "2. 작업 위임 지침", "id": "5bef62a53293c37d", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "fd9839e8", "start_line": 10, "tags": []}
-{"end_line": 18, "heading": "멀티에이전트 문서 (핸드오프·정리·감시·훅)", "id": "50ca9a7d16e6e3fa", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "fd9839e8", "start_line": 14, "tags": []}
+{"end_line": 4, "heading": "Codex Terra Agent Guidelines — cbnu-phd-coursework", "id": "8f562abb1f3f2e0c", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "91164a79", "start_line": 1, "tags": []}
+{"end_line": 8, "heading": "1. 역할 범위: Worker Session (작업 세션)", "id": "7d74cd015d4831f2", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "91164a79", "start_line": 5, "tags": []}
+{"end_line": 12, "heading": "2. 운영 지침", "id": "d2a7877a59247488", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "91164a79", "start_line": 9, "tags": []}
+{"end_line": 18, "heading": "멀티에이전트 문서 (핸드오프·정리·감시·훅)", "id": "275a8136145d067c", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "91164a79", "start_line": 13, "tags": []}
+{"end_line": 21, "heading": "규칙 상속 (전역 → 지역)", "id": "6cf82bcf509bf230", "lang": "und", "path": "AGENTS.md", "sensitivity": "unclassified", "sha8": "91164a79", "start_line": 19, "tags": []}
+{"end_line": 27, "heading": "Repository Architecture — cbnu-phd-coursework", "id": "2ec638809f181031", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "fd68f917", "start_line": 24, "tags": ["architecture", "pointer"]}
+{"end_line": 37, "heading": "1. 아키텍처 요약", "id": "cf429da5018cc353", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "fd68f917", "start_line": 28, "tags": ["architecture", "pointer"]}
+{"end_line": 40, "heading": "2. 정본 문서 안내", "id": "f2ad8a94e49b66ab", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "fd68f917", "start_line": 38, "tags": ["architecture", "pointer"]}
+{"end_line": 4, "heading": "Claude Agent Guidelines — cbnu-phd-coursework", "id": "ec4acb2b6b013b4f", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "32d58f4d", "start_line": 1, "tags": []}
+{"end_line": 9, "heading": "1. 역할 범위: Control & Monitoring ONLY", "id": "2b1cf18575f27a1b", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "32d58f4d", "start_line": 5, "tags": []}
+{"end_line": 13, "heading": "2. 작업 위임 지침", "id": "5bef62a53293c37d", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "32d58f4d", "start_line": 10, "tags": []}
+{"end_line": 19, "heading": "멀티에이전트 문서 (핸드오프·정리·감시·훅)", "id": "50ca9a7d16e6e3fa", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "32d58f4d", "start_line": 14, "tags": []}
+{"end_line": 22, "heading": "규칙 상속 (전역 → 지역)", "id": "2a5c7a4c5424a535", "lang": "und", "path": "CLAUDE.md", "sensitivity": "unclassified", "sha8": "32d58f4d", "start_line": 20, "tags": []}
 {"end_line": 27, "heading": "Contributing", "id": "b4b77407c8a80601", "lang": "en", "path": "CONTRIBUTING.md", "sensitivity": "internal", "sha8": "91212c98", "start_line": 23, "tags": ["contributing"]}
 {"end_line": 4, "heading": "Antigravity Agent Guidelines — cbnu-phd-coursework", "id": "551a2bfa86a93403", "lang": "und", "path": "GEMINI.md", "sensitivity": "unclassified", "sha8": "081ba6d5", "start_line": 1, "tags": []}
 {"end_line": 8, "heading": "1. 역할 범위: Worker Session (작업 세션)", "id": "5a3f8064b21af244", "lang": "und", "path": "GEMINI.md", "sensitivity": "unclassified", "sha8": "081ba6d5", "start_line": 5, "tags": []}
 {"end_line": 11, "heading": "2. 운영 지침", "id": "afb56127454606ec", "lang": "und", "path": "GEMINI.md", "sensitivity": "unclassified", "sha8": "081ba6d5", "start_line": 9, "tags": []}
 {"end_line": 16, "heading": "멀티에이전트 문서 (핸드오프·정리·감시·훅)", "id": "94f476ec734c1e66", "lang": "und", "path": "GEMINI.md", "sensitivity": "unclassified", "sha8": "081ba6d5", "start_line": 12, "tags": []}
+{"end_line": 2, "heading": "MODEL-SESSION-RULES", "id": "0896060e2fb86940", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 1, "tags": []}
+{"end_line": 5, "heading": "Status", "id": "124e0a7ba65a029f", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 3, "tags": []}
+{"end_line": 8, "heading": "Inheritance", "id": "631092805cdb184c", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 6, "tags": []}
+{"end_line": 11, "heading": "Model placement", "id": "4e9fd1c4f9346773", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 9, "tags": []}
+{"end_line": 14, "heading": "Naming", "id": "096bcff1b974ebda", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 12, "tags": []}
+{"end_line": 17, "heading": "Context", "id": "4a2186a4aafdfae6", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 15, "tags": []}
+{"end_line": 19, "heading": "Approval", "id": "805b57692f9a8674", "lang": "und", "path": "MODEL-SESSION-RULES.md", "sensitivity": "unclassified", "sha8": "aac79252", "start_line": 18, "tags": []}
+{"end_line": 2, "heading": "PM", "id": "586fff33496ff227", "lang": "und", "path": "PM.md", "sensitivity": "unclassified", "sha8": "86f8b3a3", "start_line": 1, "tags": []}
+{"end_line": 5, "heading": "Owner (담당)", "id": "ec1368cfe8a97bd2", "lang": "und", "path": "PM.md", "sensitivity": "unclassified", "sha8": "86f8b3a3", "start_line": 3, "tags": []}
+{"end_line": 10, "heading": "Priorities", "id": "ccd73232cdd03630", "lang": "und", "path": "PM.md", "sensitivity": "unclassified", "sha8": "86f8b3a3", "start_line": 6, "tags": []}
+{"end_line": 13, "heading": "Backlog", "id": "e33c64efc073bfd8", "lang": "und", "path": "PM.md", "sensitivity": "unclassified", "sha8": "86f8b3a3", "start_line": 11, "tags": []}
+{"end_line": 15, "heading": "Status / Updated", "id": "fe2f6cd5db48fd03", "lang": "und", "path": "PM.md", "sensitivity": "unclassified", "sha8": "86f8b3a3", "start_line": 14, "tags": []}
 {"end_line": 26, "heading": "RAG ingestion", "id": "0805e4ff781597af", "lang": "en", "path": "RAG.md", "sensitivity": "internal", "sha8": "5de82912", "start_line": 23, "tags": ["rag"]}
 {"end_line": 29, "heading": "Wiki", "id": "9df69c87762e2f6c", "lang": "en", "path": "RAG.md", "sensitivity": "internal", "sha8": "5de82912", "start_line": 27, "tags": ["rag"]}
 {"end_line": 30, "heading": "cbnu-phd-coursework", "id": "ee0b11a91d60ee6c", "lang": "en", "path": "README.md", "sensitivity": "internal", "sha8": "481f7338", "start_line": 29, "tags": ["readme", "project-overview"]}
@@ -24,6 +38,8 @@
 {"end_line": 42, "heading": "Repository Governance & Architecture", "id": "4f135b0cfc3d5ce5", "lang": "en", "path": "README.md", "sensitivity": "internal", "sha8": "481f7338", "start_line": 37, "tags": ["readme", "project-overview"]}
 {"end_line": 46, "heading": "Coursework and execution", "id": "2b9850376ed8cdf9", "lang": "en", "path": "README.md", "sensitivity": "internal", "sha8": "481f7338", "start_line": 43, "tags": ["readme", "project-overview"]}
 {"end_line": 49, "heading": "Folder map", "id": "c7b375a5b360e0a3", "lang": "en", "path": "README.md", "sensitivity": "internal", "sha8": "481f7338", "start_line": 47, "tags": ["readme", "project-overview"]}
+{"end_line": 2, "heading": "ROLES", "id": "a968eb68987af5d0", "lang": "und", "path": "ROLES.md", "sensitivity": "unclassified", "sha8": "77be6de0", "start_line": 1, "tags": []}
+{"end_line": 9, "heading": "세션 역할과 책임 (DRAFT)", "id": "b6de056efaa60934", "lang": "und", "path": "ROLES.md", "sensitivity": "unclassified", "sha8": "77be6de0", "start_line": 3, "tags": []}
 {"end_line": 27, "heading": "Repository Global Rules — cbnu-phd-coursework", "id": "30a7a7950422bb67", "lang": "en", "path": "RULES.md", "sensitivity": "internal", "sha8": "4e89112b", "start_line": 24, "tags": ["rules", "pointer"]}
 {"end_line": 33, "heading": "1. 핵심 전역 규칙 요약", "id": "b623f3346ce47da6", "lang": "en", "path": "RULES.md", "sensitivity": "internal", "sha8": "4e89112b", "start_line": 28, "tags": ["rules", "pointer"]}
 {"end_line": 37, "heading": "2. 정본 문서 안내", "id": "69acdfe5bde57825", "lang": "en", "path": "RULES.md", "sensitivity": "internal", "sha8": "4e89112b", "start_line": 34, "tags": ["rules", "pointer"]}
