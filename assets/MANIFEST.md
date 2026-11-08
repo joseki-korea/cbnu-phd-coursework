@@ -22,8 +22,14 @@ source_of_truth: assets/MANIFEST.md
 
 # Large-file manifest
 
-Existing tracked files over 5 MB are listed for review; no new large files were added.
+Existing tracked files over 5 MB are listed for review; see the binary inventory below for current locations.
 
 | Path | Bytes | SHA-256 | Drive |
 |---|---:|---|---|
 | None found | — | — | — |
+
+## Binary inventory
+
+| Name | Original path | Size (bytes) | SHA-256 | Drive link | Status |
+|---|---|---:|---|---|---|
+| None | — | — | — | — | — |
