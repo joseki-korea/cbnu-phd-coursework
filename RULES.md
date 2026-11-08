@@ -34,3 +34,10 @@ related:
 ## 2. 정본 문서 안내
 전체 세부 규칙 및 행동 지침은 아래 정본 문서를 참고하십시오:
 👉 **[docs/RULES.md](docs/RULES.md)**
+
+## 핸드오프 절차 (멀티에이전트)
+1. 인수인계는 `docs/agents/handoffs/active/`에 `YYYYMMDD-HHMM-<from>-to-<to>-<topic>.md` 이름으로 씁니다.
+2. 양식은 `docs/agents/handoffs/TEMPLATE.md`를 따릅니다.
+3. 받은 쪽은 `ACK: <역할> <YYYYMMDD-HHMM>` 줄을 추가합니다. 기존 내용은 고치지 않습니다 (append-only).
+4. 끝난 파일은 `archive/`로 옮깁니다.
+5. 자세한 규칙: [docs/agents/handoffs/README.md](docs/agents/handoffs/README.md)

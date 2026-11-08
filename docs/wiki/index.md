@@ -24,3 +24,7 @@ related: [index.md]
 - [CWRU 베어링 데이터](pages/entities/cwru-dataset.md) — 실습에서 사용하는 진동 데이터
 - [노트북 실행](pages/howto/run-notebooks.md) — 실행 환경과 데이터 준비
 - [자주 묻는 질문](pages/faq.md) — 노트북과 데이터에 대한 질문
+- [핸드오프 규칙](../agents/handoffs/README.md) — 에이전트 인수인계 파일 규칙.
+- [정리 담당 역할](../agents/ROLE-janitor.md) — 작업 흔적 정리 규칙.
+- [감시 담당 역할](../agents/ROLE-watchdog.md) — 정체·디스크·맥락 감시 규칙.
+- [훅 목록](../agents/HOOKS.md) — 이 레포의 실제 훅 실측 결과와 추가 방법.
