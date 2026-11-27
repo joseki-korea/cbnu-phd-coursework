@@ -1,0 +1,62 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.10-source
+title: 소스코드·실습 노트북
+kind: repo-section
+section_code: '10'
+summary:
+- 회귀·분류·MNIST·제조AI 실습 노트북 13개를 찾는다.
+- 실습 노트북 13개를 주제별로 찾아보고 코드·출력 원문을 보존한다.
+- 폴더·링크·원문 보존 검사 범위이며 노트북 실행 결과는 별도다.
+status: review
+content_state: populated
+canonical_path: 10-source
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 소스코드·실습 노트북
+enter_when:
+- 회귀·분류·MNIST·제조AI 실습 노트북 13개를 찾는다.
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children:
+- path: 2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb
+  summary: "\U0001F3ED [제조AI실제 4주차 실습 4-1] 회귀(Regression) 문제에서의 출력 활성화함수와 손실함수"
+- path: 2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb
+  summary: "\U0001F3ED [제조AI실제 4주차 실습 4-2] 분류(Classification) 문제에서의 Logits, 출력 활성화함수
+    및 손실함수"
+- path: 2026154001_정용석_lab4_3_challenging_problems.ipynb
+  summary: 'Lab 4-3: 지도학습의 4대 Challenging Problems 체감 실습'
+- path: 2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb
+  summary: 'Lab 4-4: 지도학습 도전과제 극복을 위한 핵심 테크닉 실습'
+- path: 2026154001_정용석_linear_regression.ipynb
+  summary: TensorFlow를 활용한 선형회귀 실습
+- path: 2026154001_정용석_logistic_regression.ipynb
+  summary: TensorFlow를 활용한 로지스틱 회귀 실습
+- path: 2026154001_정용석_mnist_nn_classification.ipynb
+  summary: 'Neural Network Classification: MNIST Dataset'
+- path: lab4_1_regression_activation_and_loss.ipynb
+  summary: "\U0001F3ED [제조AI실제 4주차 실습 4-1] 회귀(Regression) 문제에서의 출력 활성화함수와 손실함수"
+- path: lab4_2_classification_activation_and_loss.ipynb
+  summary: "\U0001F3ED [제조AI실제 4주차 실습 4-2] 분류(Classification) 문제에서의 Logits, 출력 활성화함수
+    및 손실함수"
+- path: lab4_3_challenging_problems.ipynb
+  summary: 'Lab 4-3: 지도학습의 4대 Challenging Problems 체감 실습'
+- path: lab4_4_techniques_for_challenging_problems.ipynb
+  summary: 'Lab 4-4: 지도학습 도전과제 극복을 위한 핵심 테크닉 실습'
+- path: manufacturing_ai_lab2_1.ipynb
+  summary: "\U0001F3ED [제조AI실제 2주차 실습 2-1] 좋은 특징(Good Feature)의 정의와 클래스 분리성(Separability)
+    체감"
+- path: manufacturing_ai_lab2_2.ipynb
+  summary: "\U0001F3ED [제조AI실제 2주차 실습 2-2] 제약 조건(Constraints)에 따른 일반화(Generalization)와
+    문제 난이도 비교"
+aliases: []
+legacy_names: true
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution

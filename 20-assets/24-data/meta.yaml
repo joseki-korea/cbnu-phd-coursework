@@ -1,0 +1,32 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.20-assets.24-data
+title: 데이터
+kind: repo-section
+section_code: '24'
+summary:
+- 원천·가공·샘플 데이터 또는 외부 데이터 링크의 위치다.
+- 현재 자료 없음; 해당 자료가 생기면 이 구획에서 안내한다.
+- 비어 있으므로 상위 색인으로 돌아간다.
+status: review
+content_state: empty
+canonical_path: 20-assets/24-data
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 데이터
+enter_when:
+- 이 구획에 데이터 자료가 추가된 뒤
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children: []
+aliases: []
+legacy_names: false
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution

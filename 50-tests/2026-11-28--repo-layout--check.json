@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "base_commit": "a36c7a9bbda3685ae2ff889f7ab29878b7afb1ef",
+  "original_notebooks": 13,
+  "notebook_bytes_preserved": 13,
+  "notebook_json_valid": 13,
+  "standard_sections": 14,
+  "readme_meta_pairs": 15,
+  "yaml_block_files": 15,
+  "local_links_checked": 102,
+  "broken_links": 0,
+  "Git_exact_renames": 13,
+  "symlink_files": 0,
+  "unchanged_worktree_gitdir": true,
+  "source_main_notebook_bytes_unchanged": true,
+  "notebook_local_links_before": 0,
+  "path_hardcoding_before": 0,
+  "automatic_execution_references_before": 0,
+  "scope": "relative navigation, YAML, notebook JSON and exact byte preservation; notebook cells not executed",
+  "failures": []
+}

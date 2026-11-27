@@ -1,0 +1,32 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.60-config
+title: 설정
+kind: repo-section
+section_code: '60'
+summary:
+- 환경 예시·도구·배포 설정이 필요할 때 사용할 구획이다.
+- 현재 자료 없음; 해당 자료가 생기면 이 구획에서 안내한다.
+- 비어 있으므로 상위 색인으로 돌아간다.
+status: review
+content_state: empty
+canonical_path: 60-config
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 설정
+enter_when:
+- 이 구획에 설정 자료가 추가된 뒤
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children: []
+aliases: []
+legacy_names: false
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution

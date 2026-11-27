@@ -1,0 +1,50 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.root
+title: 박사과정 실습 저장소
+kind: repo-index
+section_code: root
+summary:
+- 머신러닝·제조AI 실습 노트북과 관련 문서의 진입점이다.
+- 원문 실습은 10-source, 계획·맥락·검증·변경 노트는 용도별 구획으로 좁힌다.
+- 폴더·링크·원문 보존 검사 범위이며 노트북 실행 결과는 별도다.
+status: review
+content_state: populated
+canonical_path: "."
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 박사과정 실습 저장소
+enter_when:
+- 머신러닝·제조AI 실습 노트북과 관련 문서의 진입점이다.
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children:
+- path: 00-guide/README.md
+  summary: 주제별 진입점·표준 구획·원래 경로를 안내한다.
+- path: 10-source/README.md
+  summary: 회귀·분류·MNIST·제조AI 실습 노트북 13개를 찾는다.
+- path: 20-assets/README.md
+  summary: 이미지·디자인·영상음성·데이터·모델의 하위 구획을 안내한다.
+- path: 30-docs/README.md
+  summary: 이번 구획 이관의 결정·파일 매핑·검증 범위를 확인한다.
+- path: 40-context/README.md
+  summary: 시범 작업의 목표·결정·남은 검수와 확대 조건을 이어받는다.
+- path: 50-tests/README.md
+  summary: 폴더·링크·YAML·노트북 원문 보존 검증 결과를 확인한다.
+- path: 60-config/README.md
+  summary: 환경 예시·도구·배포 설정이 필요할 때 사용할 구획이다.
+- path: 70-release/README.md
+  summary: 폴더 변경으로 달라지는 진입 경로와 적용 범위를 확인한다.
+- path: 90-archive/README.md
+  summary: 명시적으로 보관 처리할 옛 자료의 위치다.
+aliases: []
+legacy_names: false
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution

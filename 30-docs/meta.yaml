@@ -1,0 +1,36 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.30-docs
+title: 문서
+kind: repo-section
+section_code: '30'
+summary:
+- 이번 구획 이관의 결정·파일 매핑·검증 범위를 확인한다.
+- 직접 파일 2개, 하위 구획 0개를 아래 목록에서 선택한다.
+- 폴더·링크·원문 보존 검사 범위이며 노트북 실행 결과는 별도다.
+status: review
+content_state: populated
+canonical_path: 30-docs
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 문서
+enter_when:
+- 이번 구획 이관의 결정·파일 매핑·검증 범위를 확인한다.
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children:
+- path: 2026-11-28--repo-layout--manifest.json
+  summary: 13개 파일의 원래/새 경로·원문 SHA-256·크기·mode
+- path: 2026-11-28--repo-layout--plan.md
+  summary: 14구획 결정·원문 이동·검증/복구·확대 순서
+aliases: []
+legacy_names: false
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution

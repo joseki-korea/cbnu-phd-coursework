@@ -1,0 +1,34 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.50-tests
+title: 시험·증거
+kind: repo-section
+section_code: '50'
+summary:
+- 폴더·링크·YAML·노트북 원문 보존 검증 결과를 확인한다.
+- 직접 파일 1개, 하위 구획 0개를 아래 목록에서 선택한다.
+- 폴더·링크·원문 보존 검사 범위이며 노트북 실행 결과는 별도다.
+status: review
+content_state: populated
+canonical_path: 50-tests
+migration_state: migrated
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- coursework
+- 실습
+- 시험·증거
+enter_when:
+- 폴더·링크·YAML·노트북 원문 보존 검증 결과를 확인한다.
+exit_when:
+- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+children:
+- path: 2026-11-28--repo-layout--check.json
+  summary: 링크·YAML·노트북 원문 보존 검사 결과
+aliases: []
+legacy_names: false
+verification_scope: layout, relative links, YAML and notebook byte preservation; no
+  notebook execution
