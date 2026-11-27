@@ -1,0 +1,36 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.20-assets.21-images
+title: 이미지
+kind: repo-section
+section_code: '21'
+summary:
+- '현재 empty: 별도로 등록한 원본·가공 이미지는 없다.'
+- 노트북 안의 셀 출력·그림은 원래 노트북에 보존했다.
+- 독립 이미지가 추가되기 전에는 상위 에셋 색인으로 돌아간다.
+status: review
+content_state: empty
+canonical_path: 20-assets/21-images
+migration_state: indexed
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- 이미지원본
+- 가공이미지
+- 셀출력
+- 별도자료없음
+enter_when:
+- 현재는 진입 불필요; 별도 원본·가공 이미지가 등록된 뒤
+exit_when:
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
+children: []
+aliases: []
+legacy_names: false
+related:
+- path: "../../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

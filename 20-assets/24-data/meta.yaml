@@ -1,0 +1,37 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.20-assets.24-data
+title: 데이터
+kind: repo-section
+section_code: '24'
+summary:
+- '현재 empty: CWRU .mat 원본·가공·샘플 데이터는 등록돼 있지 않다.'
+- lab4_1·2 탐색 함수는 이 구획의 .mat 파일도 찾도록 보완했다.
+- manufacturing_ai_lab2의 CWD 캐시·오프라인 fallback은 경로 보고서를 확인한다.
+status: review
+content_state: empty
+canonical_path: 20-assets/24-data
+migration_state: indexed
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- cwru
+- mat
+- 데이터
+- 외부다운로드
+- 합성fallback
+enter_when:
+- 현재는 진입 불필요; CWRU 등 데이터가 등록되거나 데이터 위치를 설정할 때
+exit_when:
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
+children: []
+aliases: []
+legacy_names: false
+related:
+- path: "../../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

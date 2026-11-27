@@ -1,0 +1,36 @@
+---
+schema_version: 1
+id: cbnu-phd-coursework.20-assets.23-media
+title: 영상·음성
+kind: repo-section
+section_code: '23'
+summary:
+- '현재 empty: 실습 관련 영상·음성 파일이 없다.'
+- 강의·녹화·음성 원본은 아직 등록하지 않았다.
+- 미디어가 추가되기 전에는 상위 에셋 색인으로 돌아간다.
+status: review
+content_state: empty
+canonical_path: 20-assets/23-media
+migration_state: indexed
+projects:
+- cbnu-phd-coursework
+owner: repository-maintainers
+authority: repository-branch
+availability: git
+keywords:
+- 영상
+- 음성
+- 강의자료
+- 미디어
+enter_when:
+- 현재는 진입 불필요; 영상·음성 자료가 등록된 뒤
+exit_when:
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
+children: []
+aliases: []
+legacy_names: false
+related:
+- path: "../../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

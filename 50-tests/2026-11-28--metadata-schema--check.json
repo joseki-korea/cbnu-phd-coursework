@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "metadata_files": 15,
+  "required_keys": 23,
+  "children_paths_checked": 37,
+  "related_paths_checked": 16,
+  "canonical_paths_checked": 15,
+  "unique_keyword_sets": 15,
+  "errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "relative_mat_search_notebooks": 4,
+  "conditional_windows_font_notebooks": 2,
+  "cwd_download_notebooks": 2,
+  "filesystem_resolution_cases": 144,
+  "missing_data_probes": 32,
+  "synthetic_fallback_branch_cases": 6,
+  "font_guard_cases": 8,
+  "download_cache_or_offline_cases": 8,
+  "unrelated_standard_data_directory_ignored_cases": 32,
+  "search_coverage": [
+    "current working directory",
+    "repository root",
+    "legacy parent",
+    "legacy grandparent",
+    "20-assets/24-data"
+  ],
+  "scope": "temporary real files for path selection; deterministic numerical/loader/font/network stubs for guards and fallback; no real MAT parsing, downloads or training"
+}
