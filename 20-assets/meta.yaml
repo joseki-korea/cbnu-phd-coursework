@@ -5,38 +5,43 @@ title: 에셋
 kind: repo-section
 section_code: '20'
 summary:
-- 이미지·디자인·영상음성·데이터·모델의 하위 구획을 안내한다.
-- 별도 에셋은 현재 없으며 하위 5구획은 모두 empty다.
-- 별도 에셋이 추가되기 전에는 상위 색인으로 돌아간다.
+- 별도 보관 이미지·디자인·영상음성·데이터·모델은 현재 없다.
+- 하위 21~25 다섯 구획 모두 empty다.
+- 에셋이 추가되기 전에는 상위 색인으로 돌아가면 된다.
 status: review
 content_state: empty
 canonical_path: 20-assets
-migration_state: migrated
+migration_state: indexed
 projects:
 - cbnu-phd-coursework
 owner: repository-maintainers
 authority: repository-branch
 availability: git
 keywords:
-- coursework
-- 실습
 - 에셋
+- 외부자료
+- 이미지
+- 데이터
+- 모델
 enter_when:
 - 별도 에셋이 추가된 후 관련 하위 구획을 찾을 때
 exit_when:
-- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
 children:
 - path: 21-images/README.md
-  summary: 노트북과 별도로 관리할 원본·가공 이미지의 위치다.
+  summary: '현재 empty: 별도로 등록한 원본·가공 이미지는 없다. (empty)'
 - path: 22-design/README.md
-  summary: 아이콘·폰트·시안 등 디자인 원본의 위치다.
+  summary: '현재 empty: 아이콘·폰트·시안 파일을 별도 보관하지 않는다. (empty)'
 - path: 23-media/README.md
-  summary: 실습 관련 영상·음성 자료의 위치다.
+  summary: '현재 empty: 실습 관련 영상·음성 파일이 없다. (empty)'
 - path: 24-data/README.md
-  summary: 원천·가공·샘플 데이터 또는 외부 데이터 링크의 위치다.
+  summary: '현재 empty: CWRU .mat 원본·가공·샘플 데이터는 등록돼 있지 않다. (empty)'
 - path: 25-models/README.md
-  summary: 별도 모델·가중치 또는 외부 보존 링크의 위치다.
+  summary: '현재 empty: 별도 학습 모델·가중치 파일이나 외부 보존 링크가 없다. (empty)'
 aliases: []
 legacy_names: false
-verification_scope: layout, relative links, YAML and notebook byte preservation; no
-  notebook execution
+related:
+- path: "../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

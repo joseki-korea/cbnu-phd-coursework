@@ -1,98 +1,138 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "base_commit": "a36c7a9bbda3685ae2ff889f7ab29878b7afb1ef",
-  "operation": "13 notebook renames; content unchanged",
+  "operation": "13 notebook moves; 9 byte-identical and 4 path-search-only corrections",
   "files": [
     {
       "old": "2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
       "new": "10-source/2026154001_정용석_lab4_1_regression_activation_and_loss.ipynb",
       "sha256": "b5111995e6742ef9c7fa80b8472d0561112bf7aa90af1ebb2d87d35da80f461e",
       "bytes": 29388,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "71b361173f7c42ea3b306b73f78646851b14ba067a094ec9035b2d9be80807ca",
+      "current_bytes": 29730,
+      "change": "find_data_file search paths only"
     },
     {
       "old": "2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
       "new": "10-source/2026154001_정용석_lab4_2_classification_activation_and_loss.ipynb",
       "sha256": "9cba6da5dc94de11963729b07742e01219ad51327d966210cdf8eb19ee977f17",
       "bytes": 31162,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "2e03765a12528a40358b31d323d91f47fc8524b4a37972c1cf93f90a19e0cf94",
+      "current_bytes": 31504,
+      "change": "find_data_file search paths only"
     },
     {
       "old": "2026154001_정용석_lab4_3_challenging_problems.ipynb",
       "new": "10-source/2026154001_정용석_lab4_3_challenging_problems.ipynb",
       "sha256": "c109057ca3b817d9dc872f3b53e578ebcc1e4e438f82504042a251e3ecc6df19",
       "bytes": 31618,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "c109057ca3b817d9dc872f3b53e578ebcc1e4e438f82504042a251e3ecc6df19",
+      "current_bytes": 31618,
+      "change": "unchanged"
     },
     {
       "old": "2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
       "new": "10-source/2026154001_정용석_lab4_4_techniques_for_challenging_problems.ipynb",
       "sha256": "8d5a3364bfad9fe34066dbcf7249a7e5922d814622aa2ae6e52b3e0926266153",
       "bytes": 29785,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "8d5a3364bfad9fe34066dbcf7249a7e5922d814622aa2ae6e52b3e0926266153",
+      "current_bytes": 29785,
+      "change": "unchanged"
     },
     {
       "old": "2026154001_정용석_linear_regression.ipynb",
       "new": "10-source/2026154001_정용석_linear_regression.ipynb",
       "sha256": "260ffc513e28535f32452bd8312336d77aa01a96193138f6f1d6cacaa5266043",
       "bytes": 84751,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "260ffc513e28535f32452bd8312336d77aa01a96193138f6f1d6cacaa5266043",
+      "current_bytes": 84751,
+      "change": "unchanged"
     },
     {
       "old": "2026154001_정용석_logistic_regression.ipynb",
       "new": "10-source/2026154001_정용석_logistic_regression.ipynb",
       "sha256": "fbad795dde9cb58cafe720c7015773eaa120e611a64b7ea463488dce735bd106",
       "bytes": 155808,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "fbad795dde9cb58cafe720c7015773eaa120e611a64b7ea463488dce735bd106",
+      "current_bytes": 155808,
+      "change": "unchanged"
     },
     {
       "old": "2026154001_정용석_mnist_nn_classification.ipynb",
       "new": "10-source/2026154001_정용석_mnist_nn_classification.ipynb",
       "sha256": "23dc969345c1388683a5532025766b6809175d5ce7cbda75f080a59c22b61bae",
       "bytes": 158296,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "23dc969345c1388683a5532025766b6809175d5ce7cbda75f080a59c22b61bae",
+      "current_bytes": 158296,
+      "change": "unchanged"
     },
     {
       "old": "lab4_1_regression_activation_and_loss.ipynb",
       "new": "10-source/lab4_1_regression_activation_and_loss.ipynb",
       "sha256": "b5111995e6742ef9c7fa80b8472d0561112bf7aa90af1ebb2d87d35da80f461e",
       "bytes": 29388,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "71b361173f7c42ea3b306b73f78646851b14ba067a094ec9035b2d9be80807ca",
+      "current_bytes": 29730,
+      "change": "find_data_file search paths only"
     },
     {
       "old": "lab4_2_classification_activation_and_loss.ipynb",
       "new": "10-source/lab4_2_classification_activation_and_loss.ipynb",
       "sha256": "9cba6da5dc94de11963729b07742e01219ad51327d966210cdf8eb19ee977f17",
       "bytes": 31162,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "2e03765a12528a40358b31d323d91f47fc8524b4a37972c1cf93f90a19e0cf94",
+      "current_bytes": 31504,
+      "change": "find_data_file search paths only"
     },
     {
       "old": "lab4_3_challenging_problems.ipynb",
       "new": "10-source/lab4_3_challenging_problems.ipynb",
       "sha256": "c109057ca3b817d9dc872f3b53e578ebcc1e4e438f82504042a251e3ecc6df19",
       "bytes": 31618,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "c109057ca3b817d9dc872f3b53e578ebcc1e4e438f82504042a251e3ecc6df19",
+      "current_bytes": 31618,
+      "change": "unchanged"
     },
     {
       "old": "lab4_4_techniques_for_challenging_problems.ipynb",
       "new": "10-source/lab4_4_techniques_for_challenging_problems.ipynb",
       "sha256": "8d5a3364bfad9fe34066dbcf7249a7e5922d814622aa2ae6e52b3e0926266153",
       "bytes": 29785,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "8d5a3364bfad9fe34066dbcf7249a7e5922d814622aa2ae6e52b3e0926266153",
+      "current_bytes": 29785,
+      "change": "unchanged"
     },
     {
       "old": "manufacturing_ai_lab2_1.ipynb",
       "new": "10-source/manufacturing_ai_lab2_1.ipynb",
       "sha256": "83b8b63877432cb8f0e5f1a0ea94ab27cdb652c6c5aa47f11bbf5e64323ce048",
       "bytes": 433460,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "83b8b63877432cb8f0e5f1a0ea94ab27cdb652c6c5aa47f11bbf5e64323ce048",
+      "current_bytes": 433460,
+      "change": "unchanged"
     },
     {
       "old": "manufacturing_ai_lab2_2.ipynb",
       "new": "10-source/manufacturing_ai_lab2_2.ipynb",
       "sha256": "1e27d7bfd7b5f5e5efb6e78dbc999e37337ec8479cd3b3fac55ada838fbab2d8",
       "bytes": 249173,
-      "mode": 420
+      "mode": 420,
+      "current_sha256": "1e27d7bfd7b5f5e5efb6e78dbc999e37337ec8479cd3b3fac55ada838fbab2d8",
+      "current_bytes": 249173,
+      "change": "unchanged"
     }
-  ]
+  ],
+  "hash_fields": "sha256/bytes describe the base original; current_sha256/current_bytes describe this PR"
 }

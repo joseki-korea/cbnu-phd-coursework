@@ -5,28 +5,32 @@ title: 디자인 원본
 kind: repo-section
 section_code: '22'
 summary:
-- 아이콘·폰트·시안 등 디자인 원본의 위치다.
-- 현재 자료 없음; 해당 자료가 생기면 이 구획에서 안내한다.
-- 비어 있으므로 상위 색인으로 돌아간다.
+- '현재 empty: 아이콘·폰트·시안 파일을 별도 보관하지 않는다.'
+- 노트북의 Windows 폰트 문자열은 시스템 폰트 참조이며 이 폴더의 자료가 아니다.
+- 디자인 원본이 추가되기 전에는 상위 에셋 색인으로 돌아간다.
 status: review
 content_state: empty
 canonical_path: 20-assets/22-design
-migration_state: migrated
+migration_state: indexed
 projects:
 - cbnu-phd-coursework
 owner: repository-maintainers
 authority: repository-branch
 availability: git
 keywords:
-- coursework
-- 실습
-- 디자인 원본
+- 디자인원본
+- 아이콘
+- 폰트
+- 시안
 enter_when:
-- 이 구획에 디자인 원본 자료가 추가된 뒤
+- 현재는 진입 불필요; 아이콘·폰트·시안 원본이 등록된 뒤
 exit_when:
-- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
 children: []
 aliases: []
 legacy_names: false
-verification_scope: layout, relative links, YAML and notebook byte preservation; no
-  notebook execution
+related:
+- path: "../../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

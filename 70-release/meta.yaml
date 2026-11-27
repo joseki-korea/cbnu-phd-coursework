@@ -1,34 +1,38 @@
 ---
 schema_version: 1
 id: cbnu-phd-coursework.70-release
-title: 버전 노트
+title: 변경 보고
 kind: repo-section
 section_code: '70'
 summary:
-- 폴더 변경으로 달라지는 진입 경로와 적용 범위를 확인한다.
-- 직접 파일 1개, 하위 구획 0개를 아래 목록에서 선택한다.
-- 폴더·링크·원문 보존 검사 범위이며 노트북 실행 결과는 별도다.
+- 폴더 이관으로 달라진 실습 진입 경로와 보완 범위를 요약한다.
+- 경로 변경 보고는 허용 kind인 report 파일로 보관한다.
+- 배포·학습 실행 산출물이 생긴 변경을 의미하지 않는다.
 status: review
 content_state: populated
 canonical_path: 70-release
-migration_state: migrated
+migration_state: indexed
 projects:
 - cbnu-phd-coursework
 owner: repository-maintainers
 authority: repository-branch
 availability: git
 keywords:
-- coursework
-- 실습
-- 버전 노트
+- 변경보고
+- 경로변경
+- 진입점
+- PR2
 enter_when:
-- 폴더 변경으로 달라지는 진입 경로와 적용 범위를 확인한다.
+- 경로 변경의 사용자 영향과 이번 PR의 범위를 빠르게 확인할 때
 exit_when:
-- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
 children:
-- path: 2026-11-28--repo-layout--notes.md
-  summary: 바뀐 진입 경로와 구조 변경의 적용 범위
+- path: 2026-11-28--repo-layout--report.md
+  summary: 새 진입 경로·9개 보존/4개 경로 보완의 변경 보고
 aliases: []
 legacy_names: false
-verification_scope: layout, relative links, YAML and notebook byte preservation; no
-  notebook execution
+related:
+- path: "../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

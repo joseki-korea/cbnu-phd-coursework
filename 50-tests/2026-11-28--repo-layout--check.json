@@ -2,20 +2,53 @@
   "status": "PASS",
   "base_commit": "a36c7a9bbda3685ae2ff889f7ab29878b7afb1ef",
   "original_notebooks": 13,
-  "notebook_bytes_preserved": 13,
+  "notebook_bytes_preserved": 9,
+  "notebook_path_search_only_edits": 4,
+  "all_notebook_outputs_and_metadata_preserved": true,
   "notebook_json_valid": 13,
   "standard_sections": 14,
   "readme_meta_pairs": 15,
   "yaml_block_files": 15,
-  "local_links_checked": 102,
+  "local_links_including_related_and_canonical_checked": 170,
   "broken_links": 0,
-  "Git_exact_renames": 13,
+  "metadata_schema": {
+    "status": "PASS",
+    "metadata_files": 15,
+    "required_keys": 23,
+    "children_paths_checked": 37,
+    "related_paths_checked": 16,
+    "canonical_paths_checked": 15,
+    "unique_keyword_sets": 15,
+    "errors": []
+  },
+  "path_behavior": {
+    "status": "PASS",
+    "relative_mat_search_notebooks": 4,
+    "conditional_windows_font_notebooks": 2,
+    "cwd_download_notebooks": 2,
+    "filesystem_resolution_cases": 144,
+    "missing_data_probes": 32,
+    "synthetic_fallback_branch_cases": 6,
+    "font_guard_cases": 8,
+    "download_cache_or_offline_cases": 8,
+    "unrelated_standard_data_directory_ignored_cases": 32,
+    "search_coverage": [
+      "current working directory",
+      "repository root",
+      "legacy parent",
+      "legacy grandparent",
+      "20-assets/24-data"
+    ],
+    "scope": "temporary real files for path selection; deterministic numerical/loader/font/network stubs for guards and fallback; no real MAT parsing, downloads or training"
+  },
   "symlink_files": 0,
   "unchanged_worktree_gitdir": true,
   "source_main_notebook_bytes_unchanged": true,
-  "notebook_local_links_before": 0,
-  "path_hardcoding_before": 0,
-  "automatic_execution_references_before": 0,
-  "scope": "relative navigation, YAML, notebook JSON and exact byte preservation; notebook cells not executed",
-  "failures": []
+  "path_scan_correction": {
+    "prior_zero_claim": "withdrawn: previous scan covered only Orca/Colab patterns",
+    "relative_mat_search_notebooks": 4,
+    "conditional_windows_font_notebooks": 2,
+    "cwd_download_notebooks": 2
+  },
+  "scope": "schema/link/cell-diff checks and isolated path/guard/fallback tests; no full notebook training, real MAT parsing or live Windows font execution"
 }

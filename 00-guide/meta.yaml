@@ -5,32 +5,34 @@ title: 안내
 kind: repo-section
 section_code: '00'
 summary:
-- 주제별 진입점·표준 구획·원래 경로를 안내한다.
-- 실습 주제별 목록과 원래/새 경로 매핑으로 바로 연결한다.
-- 원문 노트북은 10-source에서 읽고 위치 변경은 manifest에서 확인한다.
+- 실습 주제·원래/새 경로·검수 문서 바로가기다.
+- 직접 보관 파일 대신 related로 실습 목록과 manifest를 연결한다.
+- 실습 실행은 10-source, 이관 근거는 30-docs에서 찾는다.
 status: review
 content_state: populated
 canonical_path: 00-guide
-migration_state: migrated
+migration_state: indexed
 projects:
 - cbnu-phd-coursework
 owner: repository-maintainers
 authority: repository-branch
 availability: git
 keywords:
-- coursework
-- 실습
-- 안내
+- 탐색
+- 파일매핑
+- 실습목록
+- 진입점
 enter_when:
-- 실습 주제나 원래 파일의 새 경로를 찾을 때
+- 실습 파일을 고르거나 원래 경로의 새 위치를 찾을 때
 exit_when:
-- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
-children:
-- path: "../10-source/README.md"
-  summary: 13개 실습 노트북의 주제별 진입점
-- path: "../30-docs/2026-11-28--repo-layout--manifest.json"
-  summary: 원래/새 경로와 원문 해시
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
+children: []
 aliases: []
 legacy_names: false
-verification_scope: layout, relative links, YAML and notebook byte preservation; no
-  notebook execution
+related:
+- path: "../10-source/README.md"
+  summary: 13개 노트북 주제별 목록
+- path: "../30-docs/2026-11-28--repo-layout--manifest.json"
+  summary: 원래/현재 경로와 SHA
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2

@@ -5,28 +5,31 @@ title: 보관
 kind: repo-section
 section_code: '90'
 summary:
-- 명시적으로 보관 처리할 옛 자료의 위치다.
-- 현재 자료 없음; 해당 자료가 생기면 이 구획에서 안내한다.
-- 비어 있으므로 상위 색인으로 돌아간다.
+- '현재 empty: 보관·폐기 처리한 옛 자료는 없다.'
+- 바이트 동일본도 원래 노트북 목록에 보존하며 여기로 옮기거나 삭제하지 않았다.
+- 허브가 보관 범위를 정한 후에만 자료를 등록한다.
 status: review
 content_state: empty
 canonical_path: 90-archive
-migration_state: migrated
+migration_state: indexed
 projects:
 - cbnu-phd-coursework
 owner: repository-maintainers
 authority: repository-branch
 availability: git
 keywords:
-- coursework
-- 실습
 - 보관
+- 폐기이력
+- 옛버전
 enter_when:
-- 이 구획에 보관 자료가 추가된 뒤
+- 현재는 진입 불필요; 보관 대상으로 확정된 자료가 등록된 뒤
 exit_when:
-- 자료가 없거나 질문의 주제가 다르면 상위 README로 돌아간다.
+- 자료가 없거나 주제가 다르면 상위 README로 돌아간다.
 children: []
 aliases: []
 legacy_names: false
-verification_scope: layout, relative links, YAML and notebook byte preservation; no
-  notebook execution
+related:
+- path: "../30-docs/2026-11-28--repo-layout--plan.md"
+  summary: 이관 근거·검증 범위 또는 원본 실습 위치
+updated_at: '2026-11-27T16:58:33.784246+00:00'
+source_uri: https://github.com/joseki-korea/cbnu-phd-coursework/pull/2
